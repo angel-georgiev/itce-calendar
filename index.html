@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ITCE Training Calendar</title>
+  <meta name="description" content="Upcoming ITCE public training sessions: filter by category, language, format and date, and sort by any column.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <p class="eyebrow">ITCE</p>
+      <h1>Training Calendar</h1>
+      <p class="lede">Upcoming public courses and sessions. Prices per person in € excl. VAT. Click a row for details and registration.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="filters" aria-label="Filters">
+      <div class="filters-top">
+        <label class="search">
+          <span class="visually-hidden">Search</span>
+          <input id="q" type="search" placeholder="Search code, course, instructor…" autocomplete="off">
+        </label>
+        <label class="sort-mobile">
+          <span>Sort by</span>
+          <select id="sort-mobile"></select>
+        </label>
+        <button type="button" id="toggle-filters" class="btn-secondary" aria-expanded="false" aria-controls="filter-grid">Filters</button>
+        <button type="button" id="clear" class="btn-secondary">Clear filters</button>
+      </div>
+      <div id="filter-grid" class="filter-grid"></div>
+      <p class="count" id="count" aria-live="polite"></p>
+    </section>
+
+    <div class="table-scroll">
+      <table id="calendar">
+        <thead><tr id="head"></tr></thead>
+        <tbody id="rows"><tr><td class="empty">Loading schedule…</td></tr></tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="wrap site-footer">
+    <p>Data from <a href="https://www.itce.com/training-schedule/">itce.com/training-schedule</a>. <span id="updated"></span></p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

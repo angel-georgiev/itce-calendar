@@ -1,0 +1,2620 @@
+{
+ "updated": "2026-10-20T14:06:46+00:00",
+ "source": "https://www.itce.com/training-schedule/",
+ "sessions": [
+  {
+   "id": "152773",
+   "code": "BA200",
+   "title": "Professional in Business Analysis Certification Preparation Training",
+   "link": "https://www.itce.com/courses-catalogue/pmi-professional-in-business-analysis-pmi-pba-certification-preparation-training/",
+   "start": "2026-10-20",
+   "end": "2026-10-23",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-10-20",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-10-21",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-10-22",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-10-23",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 4,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Classroom",
+   "format": "",
+   "status": "",
+   "description": "Master your Business Analysis skills and receive solid preparation for the PMI-PBA® certification exam.\n\nThe training comprises 4 days of instructor-led sessions and 1 day of exam self-prep.",
+   "price": 980,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Business Analysts, Project Managers, QA Specialists, IT Professionals.",
+   "instructor": ""
+  },
+  {
+   "id": "147330",
+   "code": "P200",
+   "title": "Project Management Foundation in Practice",
+   "link": "https://www.itce.com/courses-catalogue/project-management/",
+   "start": "2026-10-20",
+   "end": "2026-10-22",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-10-20",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-10-21",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-10-22",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "By blending concepts and practices of Project Management with the active learning approaches, this foundation level course will introduce you to the key project management concepts.",
+   "price": 750,
+   "category": "Management",
+   "certification": "No",
+   "role": "Project managers, coordinators, team leaders, business users and analysts seeking foundational PM skills.",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "156621",
+   "code": "SC-5008",
+   "title": "Configure and govern entitlement with Microsoft Entra ID",
+   "link": "",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "time": "",
+   "days": [],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "",
+   "format": "",
+   "status": "",
+   "description": "",
+   "price": null,
+   "category": "Technical",
+   "certification": "",
+   "role": "",
+   "instructor": ""
+  },
+  {
+   "id": "153676",
+   "code": "I815",
+   "title": "ITIL® Managing Professional Transition (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-managing-professional-transition-version-5/",
+   "start": "2026-11-02",
+   "end": "2026-11-06",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-11-02",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-03",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-04",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-05",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-06",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Upgrade to ITIL® Managing Professional (Version 5) through a single, streamlined transition course focused exclusively on the latest updates across Product, Service, Experience, and Transformation management.",
+   "price": 2090,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Available for ITIL 4 Managing Professionals, ITIL 4 Masters, ITIL v3 Experts, and ITIL v3 Masters only.",
+   "instructor": "Anton Genchev"
+  },
+  {
+   "id": "153397",
+   "code": "SA101",
+   "title": "AI-Empowered Leading SAFe® 6.0",
+   "link": "https://www.itce.com/courses-catalogue/leading-safe/",
+   "start": "2026-11-02",
+   "end": "2026-11-06",
+   "time": "13:00-17:00",
+   "days": [
+    {
+     "date": "2026-11-02",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2026-11-03",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2026-11-04",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2026-11-05",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2026-11-06",
+     "time": "13:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "During this course, you’ll learn the principles and practices of the Scaled Agile Framework® (SAFe) and what it means to lead a Lean-Agile transformation at enterprise scale.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Executives, Managers, and Transformation Ambassadors in departments like Finance, Vendor Management, and Procurement.",
+   "instructor": "Zahari Barbov"
+  },
+  {
+   "id": "151372",
+   "code": "AIC-108",
+   "title": "AI+ Context Engineering™",
+   "link": "https://www.itce.com/courses-catalogue/ai-context-engineering/",
+   "start": "2026-11-06",
+   "end": "2026-11-06",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-11-06",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "New",
+   "description": "Learn how to build AI systems that understand context, deliver accurate results, and adapt to real-world scenarios using practical tools and techniques.",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "153216",
+   "code": "AI-3025",
+   "title": "Work smarter with AI",
+   "link": "https://www.itce.com/courses-catalogue/work-smarter-with-ai/",
+   "start": "2026-11-13",
+   "end": "2026-11-13",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2026-11-13",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "Full",
+   "description": "Discover how Microsoft Copilot can help you work more efficiently and get more done. Learn the fundamentals of generative AI, explore Copilot’s capabilities, and develop effective prompting skills to research information, create content, and enhance productivity in everyday work.",
+   "price": 145,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "No",
+   "role": "Business User, End User, Knowledge Worker, Student, Professional, Office Worker, Team Member, Manager",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "145229",
+   "code": "SA105",
+   "title": "AI-Empowered SAFe® for Teams",
+   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
+   "start": "2026-11-16",
+   "end": "2026-11-20",
+   "time": "10:00-14:00",
+   "days": [
+    {
+     "date": "2026-11-16",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-11-17",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-11-18",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-11-19",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-11-20",
+     "time": "10:00-14:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "Full",
+   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "153613",
+   "code": "I801",
+   "title": "ITIL® Foundation (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-5-foundation/",
+   "start": "2026-11-17",
+   "end": "2026-11-19",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-11-17",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-18",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-19",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "Full",
+   "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
+   "instructor": "Todor Pavlov"
+  },
+  {
+   "id": "153680",
+   "code": "I801",
+   "title": "ITIL® Foundation (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-5-foundation/",
+   "start": "2026-11-23",
+   "end": "2026-11-25",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-11-23",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-24",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-25",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
+   "instructor": "Anton Genchev"
+  },
+  {
+   "id": "154772",
+   "code": "P500",
+   "title": "Project Management Professional Preparation Course",
+   "link": "https://www.itce.com/courses-catalogue/project-management-professional-pmp-preparation-course/",
+   "start": "2026-11-23",
+   "end": "2026-11-27",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-11-23",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-24",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-25",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-26",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-11-27",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Receive solid preparation for the PMP® exam by having a focused walk-through of the exam content and completing lots of practice tests joined by valuable group discussions.",
+   "price": 1150,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Aspiring PMP® candidates, project managers, and professionals seeking to enhance project management skills and achieve PMI certification.",
+   "instructor": "Ivan Vaptsarov"
+  },
+  {
+   "id": "145416",
+   "code": "SA103",
+   "title": "SAFe® AI-Empowered Scrum Master",
+   "link": "https://www.itce.com/courses-catalogue/safe-ai-empowered-scrum-master/",
+   "start": "2026-11-30",
+   "end": "2026-12-04",
+   "time": "10:00-14:00",
+   "days": [
+    {
+     "date": "2026-11-30",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-12-01",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-12-02",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-12-03",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-12-04",
+     "time": "10:00-14:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Scrum Masters, Agile Coaches, and Agile Team Facilitators in a SAFe or enterprise Agile context.",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "145761",
+   "code": "AZ-104",
+   "title": "Microsoft Azure Administrator",
+   "link": "https://www.itce.com/courses-catalogue/microsoft-azure-administrator/",
+   "start": "2026-12-07",
+   "end": "2026-12-10",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-12-07",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-12-08",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-12-09",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-12-10",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 4,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "This course teaches IT Professionals how to manage their Azure subscriptions, virtual machines, and the integration of Azure and on-premises sites.",
+   "price": 1250,
+   "category": "Technical",
+   "certification": "Yes",
+   "role": "Successful students have experience and knowledge in IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance. Students also have experience designing and architecting solutions.",
+   "instructor": "Valeri Zahariev"
+  },
+  {
+   "id": "154422",
+   "code": "DP-900",
+   "title": "Introduction to Microsoft Azure Data",
+   "link": "",
+   "start": "2026-12-07",
+   "end": "2026-12-07",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-12-07",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "",
+   "price": null,
+   "category": "Technical",
+   "certification": "Yes",
+   "role": "Data Engineer; Data Analyst; Database Administrator",
+   "instructor": ""
+  },
+  {
+   "id": "148124",
+   "code": "SA104",
+   "title": "SAFe® DevOps (SDP)",
+   "link": "https://www.itce.com/courses-catalogue/safe-devops-sdp/",
+   "start": "2026-12-07",
+   "end": "2026-12-10",
+   "time": "13:00-17:00",
+   "days": [
+    {
+     "date": "2026-12-07",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2026-12-08",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2026-12-09",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2026-12-10",
+     "time": "13:00-17:00"
+    }
+   ],
+   "durationDays": 4,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Software Engineers Development Managers Release Managers QA Leads Infrastructure Architects Scrum Masters Product Owners",
+   "instructor": "Nina Prodanova"
+  },
+  {
+   "id": "155876",
+   "code": "SA105",
+   "title": "AI-Empowered SAFe® for Teams",
+   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
+   "start": "2026-12-07",
+   "end": "2026-12-11",
+   "time": "09:00-13:00",
+   "days": [
+    {
+     "date": "2026-12-07",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2026-12-08",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2026-12-09",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2026-12-10",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2026-12-11",
+     "time": "09:00-13:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "148357",
+   "code": "I801",
+   "title": "ITIL® Foundation (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-5-foundation/",
+   "start": "2026-12-08",
+   "end": "2026-12-10",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-12-08",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-12-09",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2026-12-10",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Hybrid",
+   "format": "All day",
+   "status": "",
+   "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
+   "instructor": "Todor Pavlov"
+  },
+  {
+   "id": "153214",
+   "code": "MS-4018",
+   "title": "Draft, analyze, and present with Microsoft 365 Copilot",
+   "link": "https://www.itce.com/courses-catalogue/draft-analyze-and-present-with-microsoft-365-copilot/",
+   "start": "2026-12-11",
+   "end": "2026-12-11",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2026-12-11",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Teams, Outlook, and Copilot Chat to create content, analyze data, and work more efficiently.",
+   "price": 145,
+   "category": "Microsoft Copilot",
+   "certification": "No",
+   "role": "Business User, Microsoft 365 User, Manager, Team Lead, Project Manager, Business Analyst, Professional",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154122",
+   "code": "I820",
+   "title": "ITIL® Transformation (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-transformation-version-5/",
+   "start": "2027-01-20",
+   "end": "2027-01-22",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-01-20",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-01-21",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-01-22",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "ITIL® Transformation (Version 5) provides practical guidance for leading organizational change, balancing governance and execution, and delivering measurable value in complex, AI-driven environments.",
+   "price": 1540,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Digital Transformation Manager, Change Manager, Service Improvement Manager, Practice Owner, Digital Product Manager, Experience Manager, Solution Designer, Strategy Analyst, IT Director, Business and Transformation Consultant, C-suite roles",
+   "instructor": "Anton Genchev"
+  },
+  {
+   "id": "153824",
+   "code": "BA400",
+   "title": "Enterprise Architecture",
+   "link": "https://www.itce.com/courses-catalogue/enterprise-architecture-based-on-togaf-10/",
+   "start": "2027-01-25",
+   "end": "2027-01-29",
+   "time": "13:00-17:00",
+   "days": [
+    {
+     "date": "2027-01-25",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-01-26",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-01-27",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-01-28",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-01-29",
+     "time": "13:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "This course aims to present enterprise architecture concepts based on the newest TOGAF® 10 version in a practical way.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Business users, analysts, and individuals aiming to enhance productivity by automating workflows, analyzing data for insights, and creating simple app experiences.",
+   "instructor": "Nina Prodanova"
+  },
+  {
+   "id": "154418",
+   "code": "DP-3011",
+   "title": "Implementing a data lakehouse analytics solution with Azure Databricks",
+   "link": "",
+   "start": "2027-01-25",
+   "end": "2027-01-25",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-01-25",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "",
+   "price": null,
+   "category": "Technical",
+   "certification": "No",
+   "role": "Data Analyst; Data Engineer",
+   "instructor": "Rozalina Zaharieva"
+  },
+  {
+   "id": "154025",
+   "code": "I801",
+   "title": "ITIL® Foundation (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-5-foundation/",
+   "start": "2027-01-25",
+   "end": "2027-01-27",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-01-25",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-01-26",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-01-27",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "155969",
+   "code": "AIC-102",
+   "title": "AI+ Prompting Fundamentals™",
+   "link": "https://www.itce.com/courses-catalogue/ai-prompting-fundamentals/",
+   "start": "2027-01-29",
+   "end": "2027-01-29",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-01-29",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "This certification program introduces learners to the fundamentals of AI and prompt engineering. Through theory and hands-on projects, participants gain the skills to create and apply prompts across various domains.",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "153212",
+   "code": "MS-4019",
+   "title": "Transform your everyday business processes with agents",
+   "link": "https://www.itce.com/courses-catalogue/transform-your-everyday-business-processes-with-agents/",
+   "start": "2027-02-05",
+   "end": "2027-02-05",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-02-05",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to create and use AI-powered agents in Microsoft 365 Copilot Chat and SharePoint to automate tasks, streamline workflows, and improve productivity.",
+   "price": 145,
+   "category": "Microsoft Copilot",
+   "certification": "No",
+   "role": "Business User, Microsoft 365 User, Team Lead, Manager, Project Manager, Administrator, Professional",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "153201",
+   "code": "SNPT-100",
+   "title": "ServiceNow Practitioners Training",
+   "link": "",
+   "start": "2027-02-09",
+   "end": "2027-02-12",
+   "time": "13:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-09",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-02-10",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-02-11",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-02-12",
+     "time": "13:00-17:00"
+    }
+   ],
+   "durationDays": 4,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "",
+   "status": "",
+   "description": "",
+   "price": null,
+   "category": "ServiceNow Practitioner",
+   "certification": "",
+   "role": "",
+   "instructor": ""
+  },
+  {
+   "id": "153980",
+   "code": "SA103",
+   "title": "SAFe® AI-Empowered Scrum Master",
+   "link": "https://www.itce.com/courses-catalogue/safe-ai-empowered-scrum-master/",
+   "start": "2027-02-15",
+   "end": "2027-02-19",
+   "time": "09:00-13:00",
+   "days": [
+    {
+     "date": "2027-02-15",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-02-16",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-02-17",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-02-18",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-02-19",
+     "time": "09:00-13:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Scrum Masters, Agile Coaches, and Agile Team Facilitators in a SAFe or enterprise Agile context.",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "153208",
+   "code": "MS-4014",
+   "title": "Introduction to building AI agents",
+   "link": "https://www.itce.com/courses-catalogue/introduction-to-building-ai-agents/",
+   "start": "2027-02-18",
+   "end": "2027-02-18",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-02-18",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to build AI agents and extend Microsoft 365 Copilot by exploring Microsoft’s agent ecosystem, development tools, and extensibility options.",
+   "price": 145,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "No",
+   "role": "Business User, Developer, Business Analyst, Solution Architect, IT Professional, Consultant, AI Enthusiast, Professional",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154424",
+   "code": "DP-601",
+   "title": "Implement a Lakehouse with Microsoft Fabric",
+   "link": "",
+   "start": "2027-02-22",
+   "end": "2027-02-22",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-01-25",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "",
+   "price": null,
+   "category": "Technical",
+   "certification": "No",
+   "role": "Data Analyst; Data Engineer; Data Scientist",
+   "instructor": "Rozalina Zaharieva"
+  },
+  {
+   "id": "154015",
+   "code": "SN100",
+   "title": "ServiceNow Administration Fundamentals",
+   "link": "https://www.itce.com/courses-catalogue/servicenow-fundamentals/",
+   "start": "2027-02-22",
+   "end": "2027-02-24",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-22",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-02-23",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-02-24",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Configure and Manage a ServiceNow Instance.",
+   "price": 1965,
+   "category": "Technical",
+   "certification": "Yes",
+   "role": "ServiceNow Administrators",
+   "instructor": "Krasimir Parushev"
+  },
+  {
+   "id": "153206",
+   "code": "MS-4022",
+   "title": "Extend Microsoft 365 Copilot in Copilot Studio",
+   "link": "https://www.itce.com/courses-catalogue/extend-microsoft-365-copilot-in-copilot-studio/",
+   "start": "2027-02-26",
+   "end": "2027-02-26",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-02-26",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to extend Microsoft 365 Copilot with custom agents, knowledge sources, and actions using Microsoft Copilot Studio.",
+   "price": 145,
+   "category": "Microsoft Copilot Studio",
+   "certification": "No",
+   "role": "Power Platform Developer, Developer, Solution Architect, Business Analyst, Microsoft 365 Administrator, Consultant, AI Agent Creator, Professional",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154120",
+   "code": "AI-3025",
+   "title": "Work smarter with AI",
+   "link": "https://www.itce.com/courses-catalogue/work-smarter-with-ai/",
+   "start": "2027-03-12",
+   "end": "2027-03-12",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-03-12",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "Full",
+   "description": "Discover how Microsoft Copilot can help you work more efficiently and get more done. Learn the fundamentals of generative AI, explore Copilot’s capabilities, and develop effective prompting skills to research information, create content, and enhance productivity in everyday work.",
+   "price": 145,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "No",
+   "role": "Business User, End User, Knowledge Worker, Student, Professional, Office Worker, Team Member, Manager",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154154",
+   "code": "AIC-103",
+   "title": "AI+ Project Manager Fundamentals™",
+   "link": "https://www.itce.com/courses-catalogue/ai-project-manager/",
+   "start": "2027-03-12",
+   "end": "2027-03-12",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-12",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "This certification program is designed for Project Managers and IT professionals seeking expertise in integrating AI with real-world development challenges.",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "Project Managers, IT Professionals",
+   "instructor": "Emanuil Mavrodiev"
+  },
+  {
+   "id": "154179",
+   "code": "SA101",
+   "title": "AI-Empowered Leading SAFe® 6.0",
+   "link": "https://www.itce.com/courses-catalogue/leading-safe/",
+   "start": "2027-03-15",
+   "end": "2027-03-19",
+   "time": "13:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-15",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-03-16",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-03-17",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-03-18",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-03-19",
+     "time": "13:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "During this course, you’ll learn the principles and practices of the Scaled Agile Framework® (SAFe) and what it means to lead a Lean-Agile transformation at enterprise scale.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Executives, Managers, and Transformation Ambassadors in departments like Finance, Vendor Management, and Procurement.",
+   "instructor": "Zahari Barbov"
+  },
+  {
+   "id": "153974",
+   "code": "SA107",
+   "title": "SAFe® for Architects",
+   "link": "https://www.itce.com/courses-catalogue/safe-for-architects/",
+   "start": "2027-03-15",
+   "end": "2027-03-19",
+   "time": "13:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-15",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-03-16",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-03-17",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-03-18",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-03-19",
+     "time": "13:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "During this advanced course, you will master architecting for continuous value flow with SAFe®.",
+   "price": 1900,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "System Architects, Solution Architects, Enterprise Architects, and Technical Managers.",
+   "instructor": "Nina Prodanova"
+  },
+  {
+   "id": "154142",
+   "code": "AIC-102",
+   "title": "AI+ Prompting Fundamentals™",
+   "link": "https://www.itce.com/courses-catalogue/ai-prompting-fundamentals/",
+   "start": "2027-03-18",
+   "end": "2027-03-18",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-18",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "This certification program introduces learners to the fundamentals of AI and prompt engineering. Through theory and hands-on projects, participants gain the skills to create and apply prompts across various domains.",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "153222",
+   "code": "PL-7008",
+   "title": "Create agents in Microsoft Copilot Studio",
+   "link": "https://www.itce.com/courses-catalogue/create-agents-in-microsoft-copilot-studio/",
+   "start": "2027-03-19",
+   "end": "2027-03-19",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-26",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Learn how to build and extend AI-powered agents with Microsoft Copilot Studio to automate tasks, connect business data, and improve user experiences.",
+   "price": 385,
+   "category": "Microsoft Copilot Studio",
+   "certification": "No",
+   "role": "Developer, Power Platform Developer, Business Analyst, Solution Architect, Consultant, AI Agent Creator, Microsoft 365 Administrator, Professional",
+   "instructor": "Lyubomir Stefanov"
+  },
+  {
+   "id": "154420",
+   "code": "DP-602",
+   "title": "Implement a Data Warehouse with Microsoft Fabric",
+   "link": "",
+   "start": "2027-03-22",
+   "end": "2027-03-22",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-22",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "",
+   "price": null,
+   "category": "Technical",
+   "certification": "No",
+   "role": "Data Analyst; Data Engineer",
+   "instructor": "Rozalina Zaharieva"
+  },
+  {
+   "id": "154023",
+   "code": "I801",
+   "title": "ITIL® Foundation (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-5-foundation/",
+   "start": "2027-03-22",
+   "end": "2027-03-24",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-22",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-03-23",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-03-24",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "153984",
+   "code": "SA102",
+   "title": "SAFe® AI-Empowered Product Owner/Product Manager",
+   "link": "https://www.itce.com/courses-catalogue/safe-ai-empowered-product-owner-product-manager-2/",
+   "start": "2027-03-22",
+   "end": "2027-03-26",
+   "time": "09:00-13:00",
+   "days": [
+    {
+     "date": "2027-03-22",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-03-23",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-03-24",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-03-25",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-03-26",
+     "time": "09:00-13:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "During this three-day course, attendees gain an in-depth understanding of how to effectively perform their role in the Agile Release Train (ART) as it delivers value through Program Increments.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Product Owners, Product Managers, Business Analysts",
+   "instructor": "Emanuil Mavrodiev"
+  },
+  {
+   "id": "154130",
+   "code": "MS-4018",
+   "title": "Draft, analyze, and present with Microsoft 365 Copilot",
+   "link": "https://www.itce.com/courses-catalogue/draft-analyze-and-present-with-microsoft-365-copilot/",
+   "start": "2027-03-26",
+   "end": "2027-03-26",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-03-26",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Teams, Outlook, and Copilot Chat to create content, analyze data, and work more efficiently.",
+   "price": 145,
+   "category": "Microsoft Copilot",
+   "certification": "No",
+   "role": "Business User, Microsoft 365 User, Manager, Team Lead, Project Manager, Business Analyst, Professional",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154005",
+   "code": "BA200",
+   "title": "Professional in Business Analysis Certification Preparation Training",
+   "link": "https://www.itce.com/courses-catalogue/pmi-professional-in-business-analysis-pmi-pba-certification-preparation-training/",
+   "start": "2027-03-29",
+   "end": "2027-04-01",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-29",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-03-30",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-03-31",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-04-01",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 4,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Master your Business Analysis skills and receive solid preparation for the PMI-PBA® certification exam.\n\nThe training comprises 4 days of instructor-led sessions and 1 day of exam self-prep.",
+   "price": 980,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Business Analysts, Project Managers, QA Specialists, IT Professionals.",
+   "instructor": ""
+  },
+  {
+   "id": "154191",
+   "code": "PL-300",
+   "title": "Design and manage analytics solutions using Power BI",
+   "link": "https://www.itce.com/courses-catalogue/analyzing-data-with-power-bi-3/",
+   "start": "2027-03-29",
+   "end": "2027-03-31",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-29",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-03-30",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-03-31",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "This course will discuss the various methods and best practices that are in line with business and technical requirements for modeling, visualizing, and analyzing data with Power BI.",
+   "price": 965,
+   "category": "Technical",
+   "certification": "Yes",
+   "role": "Data professionals, business intelligence specialists, and report developers working with cloud and on-premises data platforms",
+   "instructor": "Lyubomir Stefanov"
+  },
+  {
+   "id": "153978",
+   "code": "SA122",
+   "title": "AI-Empowered SAFe® Advanced Scrum Master",
+   "link": "https://www.itce.com/courses-catalogue/safe-advanced-scrum-master/",
+   "start": "2027-04-05",
+   "end": "2027-04-09",
+   "time": "09:00-13:00",
+   "days": [
+    {
+     "date": "2027-04-05",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-04-06",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-04-07",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-04-08",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-04-09",
+     "time": "09:00-13:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "",
+   "status": "",
+   "description": "This course prepares current Scrum Masters for their leadership role in facilitating Agile team, program, and enterprise success in a Scaled Agile Framework (SAFe®) implementation.",
+   "price": 1080,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "Senior Scrum Masters, Agile Coaches, and Agile Team Facilitators in a SAFe or enterprise Agile context.",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "154148",
+   "code": "AIC-104",
+   "title": "AI+ Product Manager Fundamentals™",
+   "link": "https://www.itce.com/courses-catalogue/ai-product-manager/",
+   "start": "2027-04-09",
+   "end": "2027-04-09",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-04-09",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "The AI+ for Product Managers certification provides a comprehensive introduction to artificial intelligence specifically for product management professionals.",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "Project and product managers aiming to leverage AI technologies in product development and innovation.",
+   "instructor": "Emanuil Mavrodiev"
+  },
+  {
+   "id": "154027",
+   "code": "I810",
+   "title": "ITIL® Product (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-product-version-5/",
+   "start": "2027-04-12",
+   "end": "2027-04-13",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-04-12",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-04-13",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 2,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "ITIL® Product (Version 5) helps professionals manage digital products and services across the full lifecycle, from discovery and design to delivery, operation, and continual improvement. The course provides practical guidance for aligning business goals, customer needs, and operational capabilities in modern digital environments.",
+   "price": 1190,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
+   "instructor": "Emil Hristov"
+  },
+  {
+   "id": "154001",
+   "code": "P200",
+   "title": "Project Management Foundation in Practice",
+   "link": "https://www.itce.com/courses-catalogue/project-management/",
+   "start": "2027-04-12",
+   "end": "2027-04-14",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-04-12",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-04-13",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-04-14",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "By blending concepts and practices of Project Management with the active learning approaches, this foundation level course will introduce you to the key project management concepts.",
+   "price": 750,
+   "category": "Management",
+   "certification": "No",
+   "role": "Project managers, coordinators, team leaders, business users and analysts seeking foundational PM skills.",
+   "instructor": ""
+  },
+  {
+   "id": "154035",
+   "code": "I817",
+   "title": "ITIL® AI Governance (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-ai-governance-version-5/",
+   "start": "2027-04-16",
+   "end": "2027-04-16",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-04-16",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "ITIL® AI Governance (Version 5) provides practical guidance for adopting and scaling AI responsibly by strengthening oversight, accountability, risk management, compliance, and trust.",
+   "price": 610,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154426",
+   "code": "DP-603",
+   "title": "Implement Real-Time Intelligence with Microsoft Fabric",
+   "link": "",
+   "start": "2027-04-19",
+   "end": "2027-04-19",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-04-19",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "",
+   "price": null,
+   "category": "Technical",
+   "certification": "No",
+   "role": "Data Analyst; Data Engineer",
+   "instructor": "Rozalina Zaharieva"
+  },
+  {
+   "id": "154126",
+   "code": "I816",
+   "title": "ITIL® Strategy (Version 5)",
+   "link": "",
+   "start": "2027-04-19",
+   "end": "2027-04-20",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-04-19",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-04-20",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 2,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "Full",
+   "description": "",
+   "price": null,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Strategy Manager, Digital Transformation Manager, Portfolio Manager, Digital Product Manager, Service Manager, Practice Owner, Solution Designer, Business and IT Consultant, Enterprise or Business Architect, IT Director, C-suite roles",
+   "instructor": "Anton Genchev"
+  },
+  {
+   "id": "153972",
+   "code": "SA105",
+   "title": "AI-Empowered SAFe® for Teams",
+   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
+   "start": "2027-04-19",
+   "end": "2027-04-23",
+   "time": "",
+   "days": [],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "154134",
+   "code": "MS-4014",
+   "title": "Introduction to building AI agents",
+   "link": "https://www.itce.com/courses-catalogue/introduction-to-building-ai-agents/",
+   "start": "2027-04-23",
+   "end": "2027-04-23",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-04-23",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to build AI agents and extend Microsoft 365 Copilot by exploring Microsoft’s agent ecosystem, development tools, and extensibility options.",
+   "price": 145,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "No",
+   "role": "Business User, Developer, Business Analyst, Solution Architect, IT Professional, Consultant, AI Enthusiast, Professional",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154039",
+   "code": "AZ-040",
+   "title": "Automating Administration with PowerShell",
+   "link": "https://www.itce.com/courses-catalogue/automating-administration-with-powershell/",
+   "start": "2027-05-10",
+   "end": "2027-05-14",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-05-10",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-05-11",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-05-12",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-05-13",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-05-14",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "The course focuses on primary Windows PowerShell command-line features and techniques, and will provide pre-requisite skills supporting a broad range of Microsoft products, including Windows Server, Windows Client, Exchange Server, SharePoint Server, SQL Server, System Center, and more.",
+   "price": 1550,
+   "category": "Technical",
+   "certification": "Yes",
+   "role": "Windows Server administrators, IT professionals, support specialists, and server administrators focused on automation and infrastructure management.",
+   "instructor": "Valeri Frunze"
+  },
+  {
+   "id": "153988",
+   "code": "SA400",
+   "title": "AI-Empowered SAFe® Release Train Engineer",
+   "link": "https://www.itce.com/courses-catalogue/safe-release-train-engineer/",
+   "start": "2027-05-10",
+   "end": "2027-05-14",
+   "time": "09:00-13:00",
+   "days": [
+    {
+     "date": "2027-05-10",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-05-11",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-05-12",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-05-13",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-05-14",
+     "time": "09:00-13:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "Unique to SAFe®, the Release Train Engineer (RTE) is part of the trio of leaders that includes product managers and system architects. This plays a critical role in leading Agile Release Trains (ARTs) to deliver value.",
+   "price": 1725,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Release Train Engineers, Scrum Masters, Program Managers, and Lean-Agile Coaches seeking to enhance leadership and facilitation skills in a SAFe environment.",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "154146",
+   "code": "AIC-108",
+   "title": "AI+ Context Engineering™",
+   "link": "https://www.itce.com/courses-catalogue/ai-context-engineering/",
+   "start": "2027-05-13",
+   "end": "2027-05-13",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-05-13",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Learn how to build AI systems that understand context, deliver accurate results, and adapt to real-world scenarios using practical tools and techniques.",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154138",
+   "code": "MS-4019",
+   "title": "Transform your everyday business processes with agents",
+   "link": "https://www.itce.com/courses-catalogue/transform-your-everyday-business-processes-with-agents/",
+   "start": "2027-05-14",
+   "end": "2027-05-14",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-05-14",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to create and use AI-powered agents in Microsoft 365 Copilot Chat and SharePoint to automate tasks, streamline workflows, and improve productivity.",
+   "price": 145,
+   "category": "Microsoft Copilot",
+   "certification": "No",
+   "role": "Business User, Microsoft 365 User, Team Lead, Manager, Project Manager, Administrator, Professional",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154031",
+   "code": "I811",
+   "title": "ITIL® Service (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-service-version-5/",
+   "start": "2027-05-17",
+   "end": "2027-05-18",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-05-17",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-05-18",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 2,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "This course helps professionals manage digital services across the full service lifecycle, from strategy and design to delivery, support, and improvement. It provides practical guidance for aligning IT services with business goals, customer expectations, and operational performance in modern digital environments.",
+   "price": 1190,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
+   "instructor": "Emil Hristov"
+  },
+  {
+   "id": "153986",
+   "code": "SA102",
+   "title": "SAFe® AI-Empowered Product Owner/Product Manager",
+   "link": "https://www.itce.com/courses-catalogue/safe-ai-empowered-product-owner-product-manager-2/",
+   "start": "2027-05-17",
+   "end": "2027-05-21",
+   "time": "09:00-13:00",
+   "days": [
+    {
+     "date": "2027-05-17",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-05-18",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-05-19",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-05-20",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-05-21",
+     "time": "09:00-13:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "During this three-day course, attendees gain an in-depth understanding of how to effectively perform their role in the Agile Release Train (ART) as it delivers value through Program Increments.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Product Owners, Product Managers, Business Analysts",
+   "instructor": "Emanuil Mavrodiev"
+  },
+  {
+   "id": "154019",
+   "code": "SNPT-200",
+   "title": "ServiceNow Common Service Data Model (CSDM) 5.0 for Architects and Consultants",
+   "link": "https://www.itce.com/courses-catalogue/csdm-practitioner-training/",
+   "start": "2027-05-19",
+   "end": "2027-05-20",
+   "time": "10:00-18:00",
+   "days": [
+    {
+     "date": "2027-05-19",
+     "time": "10:00-18:00"
+    },
+    {
+     "date": "2027-05-20",
+     "time": "10:00-18:00"
+    }
+   ],
+   "durationDays": 2,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "These workshop topics are designed for stakeholders responsible for aligning enterprise architecture with the ServiceNow platform.",
+   "price": 750,
+   "category": "ServiceNow Practitioner",
+   "certification": "No",
+   "role": "Product Manager, Product Owner, Process Owner, Enterprise Architect, Solution Architect, ServiceNow Business Consultant , ServiceNow Technical Consultant , Configuration Manager, CMDB Manager, CMDB Administrator, Platform Owner, Platform Architect",
+   "instructor": "Martin Iozev"
+  },
+  {
+   "id": "154140",
+   "code": "MS-4022",
+   "title": "Extend Microsoft 365 Copilot in Copilot Studio",
+   "link": "https://www.itce.com/courses-catalogue/extend-microsoft-365-copilot-in-copilot-studio/",
+   "start": "2027-05-21",
+   "end": "2027-05-21",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-05-21",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to extend Microsoft 365 Copilot with custom agents, knowledge sources, and actions using Microsoft Copilot Studio.",
+   "price": 145,
+   "category": "Microsoft Copilot Studio",
+   "certification": "No",
+   "role": "Power Platform Developer, Developer, Solution Architect, Business Analyst, Microsoft 365 Administrator, Consultant, AI Agent Creator, Professional",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154152",
+   "code": "AIC-109",
+   "title": "AI+ Sales Practitioner™",
+   "link": "https://www.itce.com/courses-catalogue/ai-sales-practitioner/",
+   "start": "2027-05-28",
+   "end": "2027-05-28",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-05-28",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Learn how to use AI to improve sales performance, automate routine tasks, enhance customer engagement, and make smarter sales decisions. This course provides practical knowledge of AI tools and techniques that help sales teams work more efficiently and achieve better results.",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154428",
+   "code": "DP-3001",
+   "title": "Migrate SQL Server workload to Azure SQL",
+   "link": "",
+   "start": "2027-05-31",
+   "end": "2027-05-31",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-05-31",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "",
+   "price": null,
+   "category": "Technical",
+   "certification": "No",
+   "role": "Database Administrator; Data Engineer; Administrator; Developer; Solution Architect",
+   "instructor": "Rozalina Zaharieva"
+  },
+  {
+   "id": "154003",
+   "code": "P500",
+   "title": "Project Management Professional Preparation Course",
+   "link": "https://www.itce.com/courses-catalogue/project-management-professional-pmp-preparation-course/",
+   "start": "2027-05-31",
+   "end": "2027-06-04",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-05-31",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-01",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-02",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-03",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-04",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Receive solid preparation for the PMP® exam by having a focused walk-through of the exam content and completing lots of practice tests joined by valuable group discussions.",
+   "price": 1150,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Aspiring PMP® candidates, project managers, and professionals seeking to enhance project management skills and achieve PMI certification.",
+   "instructor": ""
+  },
+  {
+   "id": "154181",
+   "code": "SA101",
+   "title": "AI-Empowered Leading SAFe® 6.0",
+   "link": "https://www.itce.com/courses-catalogue/leading-safe/",
+   "start": "2027-06-14",
+   "end": "2027-06-18",
+   "time": "13:00-17:00",
+   "days": [
+    {
+     "date": "2027-06-14",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-06-15",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-06-16",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-06-17",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-06-18",
+     "time": "13:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "During this course, you’ll learn the principles and practices of the Scaled Agile Framework® (SAFe) and what it means to lead a Lean-Agile transformation at enterprise scale.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Executives, Managers, and Transformation Ambassadors in departments like Finance, Vendor Management, and Procurement.",
+   "instructor": "Zahari Barbov"
+  },
+  {
+   "id": "153982",
+   "code": "SA103",
+   "title": "SAFe® AI-Empowered Scrum Master",
+   "link": "https://www.itce.com/courses-catalogue/safe-ai-empowered-scrum-master/",
+   "start": "2027-06-14",
+   "end": "2027-06-18",
+   "time": "09:00-13:00",
+   "days": [
+    {
+     "date": "2027-06-14",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-06-15",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-06-16",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-06-17",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-06-18",
+     "time": "09:00-13:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Scrum Masters, Agile Coaches, and Agile Team Facilitators in a SAFe or enterprise Agile context.",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "153992",
+   "code": "SA108",
+   "title": "SAFe® Lean Portfolio Management (LPM)",
+   "link": "https://www.itce.com/courses-catalogue/lean-portfolio-management/",
+   "start": "2027-06-14",
+   "end": "2027-06-18",
+   "time": "13:00-18:00",
+   "days": [
+    {
+     "date": "2026-06-21",
+     "time": "13:00-18:00"
+    },
+    {
+     "date": "2026-06-22",
+     "time": "13:00-18:00"
+    },
+    {
+     "date": "2026-06-23",
+     "time": "13:00-18:00"
+    },
+    {
+     "date": "2026-06-24",
+     "time": "13:00-18:00"
+    },
+    {
+     "date": "2026-06-25",
+     "time": "13:00-18:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "Gain the practical tools and techniques necessary to implement the Lean Portfolio Management functions of Strategy and Investment Funding, Agile Portfolio Operations and Lean Governance.",
+   "price": 1725,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Portfolio Managers, PMO Managers, Program Managers, Business Leaders, Product Managers",
+   "instructor": "Nina Prodanova"
+  },
+  {
+   "id": "154150",
+   "code": "AIC-110",
+   "title": "AI+ Marketing Practitioner™",
+   "link": "https://www.itce.com/courses-catalogue/ai-marketing-practitioner/",
+   "start": "2027-06-18",
+   "end": "2027-06-18",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-06-18",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Learn how to use AI to create more effective marketing campaigns, personalize customer experiences, and improve marketing performance.",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
+   "instructor": "Angel Georgiev"
+  },
+  {
+   "id": "154033",
+   "code": "I812",
+   "title": "ITIL® Experience (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-experience-version-5/",
+   "start": "2027-06-21",
+   "end": "2027-06-22",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-06-21",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-22",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 2,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "This course helps professionals design and manage digital experiences that build trust, engagement, and value across the full service lifecycle. It provides practical guidance for applying human-centred and AI-aware approaches in modern digital environments.",
+   "price": 1190,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation.",
+   "instructor": ""
+  },
+  {
+   "id": "154009",
+   "code": "P902",
+   "title": "PRINCE2® 7 Foundation and Practitioner Training",
+   "link": "https://www.itce.com/courses-catalogue/prince2-2017-foundation-practitioner/",
+   "start": "2027-06-21",
+   "end": "2027-06-25",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-06-21",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-22",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-23",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-24",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-25",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "The PRINCE2 7th Edition Foundation and Practitioner training is an intensive course aimed at preparing project management professionals to successfully sit for both of the certification levels.",
+   "price": 1959,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Project Managers, Program Managers, Team Leaders",
+   "instructor": "Anton Genchev"
+  },
+  {
+   "id": "154017",
+   "code": "SN650",
+   "title": "IT Service Management (ITSM) Fundamentals",
+   "link": "https://www.itce.com/courses-catalogue/it-service-management-fundamentals/",
+   "start": "2027-06-21",
+   "end": "2027-06-22",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-06-21",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-22",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 2,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Learn lifecycles and Value of ITSM Applications, from Viewpoint of Stakeholders and Daily Users",
+   "price": 1380,
+   "category": "Technical",
+   "certification": "Yes",
+   "role": "Customers, partners, and ServiceNow employees who will be administering ServiceNow and working on a ServiceNow implementation of ITSM applications",
+   "instructor": ""
+  },
+  {
+   "id": "153990",
+   "code": "P501",
+   "title": "Agile Certified Practitioner Preparation Training",
+   "link": "https://www.itce.com/courses-catalogue/pmi-agile-certified-practitioner-preparation/",
+   "start": "2027-07-05",
+   "end": "2027-07-08",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-07-05",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-07-06",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-07-07",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-07-08",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 4,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Get ready to lead your next Agile project and prepare for the Project Management Institute Agile Certified Practitioner (PMI-ACP)® certification exam. The training is a blend of instructor-led sessions and group & individual exercises based on project case studies, that will open the doors for the Agile way of thinking and the Agile way of working for you and your organization!",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Product managers, project managers, Scrum Masters, developers, business analysts, and teams transitioning to Agile methodologies or seeking to deepen their Agile expertise.",
+   "instructor": "Svetoslav Iliev"
+  },
+  {
+   "id": "154136",
+   "code": "I820",
+   "title": "ITIL® Transformation (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-transformation-version-5/",
+   "start": "2027-09-13",
+   "end": "2027-09-15",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-09-13",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-09-14",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-09-15",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "ITIL® Transformation (Version 5) provides practical guidance for leading organizational change, balancing governance and execution, and delivering measurable value in complex, AI-driven environments.",
+   "price": 1540,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Digital Transformation Manager, Change Manager, Service Improvement Manager, Practice Owner, Digital Product Manager, Experience Manager, Solution Designer, Strategy Analyst, IT Director, Business and Transformation Consultant, C-suite roles",
+   "instructor": "Anton Genchev"
+  },
+  {
+   "id": "154029",
+   "code": "I815",
+   "title": "ITIL® Managing Professional Transition (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-managing-professional-transition-version-5/",
+   "start": "2027-09-27",
+   "end": "2027-10-01",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-09-27",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-09-28",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-09-29",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-09-30",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-10-01",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Upgrade to ITIL® Managing Professional (Version 5) through a single, streamlined transition course focused exclusively on the latest updates across Product, Service, Experience, and Transformation management.",
+   "price": 2090,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Available for ITIL 4 Managing Professionals, ITIL 4 Masters, ITIL v3 Experts, and ITIL v3 Masters only.",
+   "instructor": "Anton Genchev"
+  },
+  {
+   "id": "154037",
+   "code": "I560",
+   "title": "ITIL® 4 Specialist: Monitor, Support, and Fulfil",
+   "link": "https://www.itce.com/courses-catalogue/itil-4-specialist-monitor-support-and-fulfil/",
+   "start": "2027-10-04",
+   "end": "2027-10-06",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-10-04",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-10-05",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-10-06",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "The ITIL 4 Specialist: Monitor, Support and Fulfil combined practice module is for IT professionals aiming to establish a good cross-practice collaboration and effective service value streams.",
+   "price": 1540,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "IT Operations Managers, Service Desk Managers, Problem Managers, and ITSM Practitioners.",
+   "instructor": "Martin Iozev"
+  },
+  {
+   "id": "154011",
+   "code": "BA200",
+   "title": "Professional in Business Analysis Certification Preparation Training",
+   "link": "https://www.itce.com/courses-catalogue/pmi-professional-in-business-analysis-pmi-pba-certification-preparation-training/",
+   "start": "2027-10-18",
+   "end": "2027-10-21",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-10-18",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-10-19",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-10-20",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-10-21",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 4,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Master your Business Analysis skills and receive solid preparation for the PMI-PBA® certification exam.\n\nThe training comprises 4 days of instructor-led sessions and 1 day of exam self-prep.",
+   "price": 980,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Business Analysts, Project Managers, QA Specialists, IT Professionals.",
+   "instructor": ""
+  },
+  {
+   "id": "153994",
+   "code": "BA400",
+   "title": "Enterprise Architecture",
+   "link": "https://www.itce.com/courses-catalogue/enterprise-architecture-based-on-togaf-10/",
+   "start": "2027-11-15",
+   "end": "2027-11-19",
+   "time": "13:00-17:00",
+   "days": [
+    {
+     "date": "2027-11-15",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-11-16",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-11-17",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-11-18",
+     "time": "13:00-17:00"
+    },
+    {
+     "date": "2027-11-19",
+     "time": "13:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "This course aims to present enterprise architecture concepts based on the newest TOGAF® 10 version in a practical way.",
+   "price": 1080,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Business users, analysts, and individuals aiming to enhance productivity by automating workflows, analyzing data for insights, and creating simple app experiences.",
+   "instructor": "Nina Prodanova"
+  },
+  {
+   "id": "154007",
+   "code": "P500",
+   "title": "Project Management Professional Preparation Course",
+   "link": "https://www.itce.com/courses-catalogue/project-management-professional-pmp-preparation-course/",
+   "start": "2027-11-22",
+   "end": "2027-11-26",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-05-31",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-01",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-02",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-03",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-06-04",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Receive solid preparation for the PMP® exam by having a focused walk-through of the exam content and completing lots of practice tests joined by valuable group discussions.",
+   "price": 1150,
+   "category": "Management",
+   "certification": "Yes",
+   "role": "Aspiring PMP® candidates, project managers, and professionals seeking to enhance project management skills and achieve PMI certification.",
+   "instructor": ""
+  }
+ ]
+}
