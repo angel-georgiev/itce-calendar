@@ -5,13 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ITCE Training Calendar</title>
   <meta name="description" content="Upcoming ITCE public training sessions: filter by category, language, format and date, and sort by any column.">
+  <link rel="icon" href="assets/itce-logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap">
-      <p class="eyebrow">ITCE</p>
-      <h1>Training Calendar</h1>
+      <div class="brand">
+        <a class="brand-logo" href="https://www.itce.com/" title="ITCE website"><img src="assets/itce-logo.svg" alt="ITCE" width="115" height="40"></a>
+        <h1>Training Calendar</h1>
+      </div>
       <p class="lede">Upcoming public courses and sessions. Prices per person in € excl. VAT. Click a row for details and registration.</p>
     </div>
   </header>
@@ -42,8 +48,10 @@
     </div>
   </main>
 
-  <footer class="wrap site-footer">
-    <p>Data from <a href="https://www.itce.com/training-schedule/">itce.com/training-schedule</a>. <span id="updated"></span></p>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Data from <a href="https://www.itce.com/training-schedule/">itce.com/training-schedule</a>. <span id="updated"></span></p>
+    </div>
   </footer>
 
   <script src="assets/app.js"></script>
