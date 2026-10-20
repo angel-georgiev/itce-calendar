@@ -8,20 +8,28 @@
 
   const fmtDate = (iso) => DATE_FMT.format(new Date(iso + "T00:00:00Z"));
   const fmtMonth = (iso) => MONTH_FMT.format(new Date(iso.slice(0, 7) + "-01T00:00:00Z"));
+  // "20 Oct 2026", "20–22 Oct 2026", "30 Nov – 04 Dec 2026"
+  function fmtRange(start, end) {
+    if (start === end) return fmtDate(start);
+    const [a, b] = [fmtDate(start), fmtDate(end)];
+    if (start.slice(0, 7) === end.slice(0, 7)) return `${a.slice(0, 2)}–${b}`;
+    if (start.slice(0, 4) === end.slice(0, 4)) return `${a.slice(0, -5)} – ${b}`;
+    return `${a} – ${b}`;
+  }
 
   // filter: "text" (contains), "select" (exact), "month" (start month), "max" (numeric ≤)
+  // cell: renders from the whole session; optional: hidden on mid-size screens and shown in the row details instead
   const COLUMNS = [
     { key: "code", label: "Code", filter: "text" },
     { key: "title", label: "Course", filter: "text" },
-    { key: "start", label: "Start", filter: "month", render: fmtDate },
-    { key: "end", label: "End", render: fmtDate },
+    { key: "start", label: "Dates", filterLabel: "Start month", filter: "month", cell: (s) => fmtRange(s.start, s.end) },
     { key: "durationDays", label: "Duration", filter: "select", numeric: true, render: (v) => (v === 1 ? "1 day" : `${v} days`) },
     { key: "format", label: "Format", filter: "select" },
-    { key: "method", label: "Method", filter: "select" },
-    { key: "type", label: "Type", filter: "select" },
+    { key: "method", label: "Method", filter: "select", optional: true },
+    { key: "type", label: "Type", filter: "select", optional: true },
     { key: "category", label: "Category", filter: "select" },
     { key: "language", label: "Language", filter: "select" },
-    { key: "certification", label: "Cert. exam", filter: "select" },
+    { key: "certification", label: "Cert. exam", filter: "select", optional: true },
     { key: "instructor", label: "Instructor", filter: "select" },
     { key: "price", label: "Price €", filter: "max", numeric: true, render: (v) => (v == null ? "" : v.toLocaleString("en-GB")) },
   ];
@@ -82,7 +90,7 @@
         state.filters[col.key] = control.value.trim();
         update();
       });
-      grid.append(el("label", { className: "field", htmlFor: id }, el("span", { textContent: col.label }), control));
+      grid.append(el("label", { className: "field", htmlFor: id }, el("span", { textContent: col.filterLabel || col.label }), control));
     }
   }
 
@@ -124,6 +132,7 @@
       btn.addEventListener("click", () => setSort(col.key, state.sortKey === col.key ? -state.sortDir : 1));
       const th = el("th", { scope: "col" }, btn);
       th.dataset.key = col.key;
+      if (col.optional) th.className = "col-opt";
       head.append(th);
       sortSel.append(
         el("option", { value: col.key, textContent: `${col.label} ↑` }),
@@ -158,13 +167,14 @@
         const td = el("td");
         td.dataset.label = col.label;
         td.dataset.key = col.key;
+        if (col.optional) td.classList.add("col-opt");
         if (col.key === "title") {
           td.append(el("span", { className: "title", textContent: v }));
           for (const b of (s.status || "").split(",").map((x) => x.trim()).filter(Boolean)) {
             td.append(" ", el("span", { className: `badge badge-${b.toLowerCase()}`, textContent: b }));
           }
         } else {
-          td.textContent = v === "" || v == null ? "—" : col.render ? col.render(v) : v;
+          td.textContent = v === "" || v == null ? "—" : col.cell ? col.cell(s) : col.render ? col.render(v) : v;
           if (v === "" || v == null) td.classList.add("muted");
         }
         tr.append(td);
@@ -187,6 +197,9 @@
     if (s.description) info.append(el("div", {}, el("h3", { textContent: "About this course" }), el("p", { textContent: s.description })));
     if (s.role) info.append(el("div", {}, el("h3", { textContent: "Who should attend" }), el("p", { textContent: s.role })));
     if (s.days && s.days.length) info.append(el("div", {}, el("h3", { textContent: "Schedule" }), days));
+    const facts = el("dl", { className: "facts" });
+    for (const col of COLUMNS.filter((c) => c.optional)) facts.append(el("dt", { textContent: col.label }), el("dd", { textContent: s[col.key] || "—" }));
+    info.append(el("div", { className: "facts-opt" }, el("h3", { textContent: "Course facts" }), facts));
     const link = el("a", {
       className: "btn-primary",
       href: s.link || SCHEDULE_URL,
