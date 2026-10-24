@@ -14,7 +14,7 @@ A static, filterable and sortable view of the upcoming public trainings on [itce
 | `scripts/sync.py` | Scrapes the website and merges it with `enrichment.json`. Uses only the Python standard library. |
 | `scripts/import_xlsx.py` | One-time import of the original Excel schedule into `enrichment.json`. |
 
-The website is the source of truth for sessions, dates, language, format, learning method, description, link and price. The page hides sessions whose start date has passed.
+The website is the source of truth for sessions, dates, language, format, learning method, description, link and price. The script reads both the English and the Bulgarian schedule. A course link is kept only if it opens that course's own page. The page hides sessions whose start date has passed.
 
 ## Updating
 

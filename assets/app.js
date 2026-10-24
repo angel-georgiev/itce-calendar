@@ -1,7 +1,6 @@
 (() => {
   "use strict";
 
-  const SCHEDULE_URL = "https://www.itce.com/training-schedule/";
   const MONTH_FMT = new Intl.DateTimeFormat("en-GB", { month: "short", year: "numeric", timeZone: "UTC" });
   const DATE_FMT = new Intl.DateTimeFormat("en-GB", { day: "2-digit", month: "short", year: "numeric", timeZone: "UTC" });
   const DAY_FMT = new Intl.DateTimeFormat("en-GB", { weekday: "short", day: "2-digit", month: "short", timeZone: "UTC" });
@@ -200,13 +199,10 @@
     const facts = el("dl", { className: "facts" });
     for (const col of COLUMNS.filter((c) => c.optional)) facts.append(el("dt", { textContent: col.label }), el("dd", { textContent: s[col.key] || "—" }));
     info.append(el("div", { className: "facts-opt" }, el("h3", { textContent: "Course facts" }), facts));
-    const link = el("a", {
-      className: "btn-primary",
-      href: s.link || SCHEDULE_URL,
-      target: "_blank",
-      rel: "noopener",
-      textContent: s.link ? "Details & registration on itce.com" : "See it on the ITCE training schedule",
-    });
+    // Only direct links to the course's own page; no generic fallback.
+    const link = s.link
+      ? el("a", { className: "btn-primary", href: s.link, target: "_blank", rel: "noopener", textContent: "Details & registration on itce.com" })
+      : el("p", { className: "no-link", textContent: "No course page on itce.com yet." });
     return el("tr", { className: "detail" }, el("td", { colSpan: COLUMNS.length }, el("div", { className: "detail-inner" }, info, link)));
   }
 

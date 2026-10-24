@@ -1,103 +1,7 @@
 {
- "updated": "2026-10-20T14:06:46+00:00",
+ "updated": "2026-10-24T07:41:42+00:00",
  "source": "https://www.itce.com/training-schedule/",
  "sessions": [
-  {
-   "id": "152773",
-   "code": "BA200",
-   "title": "Professional in Business Analysis Certification Preparation Training",
-   "link": "https://www.itce.com/courses-catalogue/pmi-professional-in-business-analysis-pmi-pba-certification-preparation-training/",
-   "start": "2026-10-20",
-   "end": "2026-10-23",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2026-10-20",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-10-21",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-10-22",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-10-23",
-     "time": "09:00-17:00"
-    }
-   ],
-   "durationDays": 4,
-   "type": "Course",
-   "language": "Bulgarian",
-   "method": "Classroom",
-   "format": "",
-   "status": "",
-   "description": "Master your Business Analysis skills and receive solid preparation for the PMI-PBA® certification exam.\n\nThe training comprises 4 days of instructor-led sessions and 1 day of exam self-prep.",
-   "price": 980,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Business Analysts, Project Managers, QA Specialists, IT Professionals.",
-   "instructor": ""
-  },
-  {
-   "id": "147330",
-   "code": "P200",
-   "title": "Project Management Foundation in Practice",
-   "link": "https://www.itce.com/courses-catalogue/project-management/",
-   "start": "2026-10-20",
-   "end": "2026-10-22",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2026-10-20",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-10-21",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-10-22",
-     "time": "09:00-17:00"
-    }
-   ],
-   "durationDays": 3,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "All day",
-   "status": "",
-   "description": "By blending concepts and practices of Project Management with the active learning approaches, this foundation level course will introduce you to the key project management concepts.",
-   "price": 750,
-   "category": "Management",
-   "certification": "No",
-   "role": "Project managers, coordinators, team leaders, business users and analysts seeking foundational PM skills.",
-   "instructor": "Angel Georgiev"
-  },
-  {
-   "id": "156621",
-   "code": "SC-5008",
-   "title": "Configure and govern entitlement with Microsoft Entra ID",
-   "link": "",
-   "start": "2026-10-20",
-   "end": "2026-10-20",
-   "time": "",
-   "days": [],
-   "durationDays": 1,
-   "type": "Course",
-   "language": "Bulgarian",
-   "method": "",
-   "format": "",
-   "status": "",
-   "description": "",
-   "price": null,
-   "category": "Technical",
-   "certification": "",
-   "role": "",
-   "instructor": ""
-  },
   {
    "id": "153676",
    "code": "I815",
@@ -148,30 +52,26 @@
    "link": "https://www.itce.com/courses-catalogue/leading-safe/",
    "start": "2026-11-02",
    "end": "2026-11-06",
-   "time": "13:00-17:00",
+   "time": "13:00-18:00",
    "days": [
     {
      "date": "2026-11-02",
-     "time": "13:00-17:00"
+     "time": "13:00-18:00"
     },
     {
      "date": "2026-11-03",
-     "time": "13:00-17:00"
-    },
-    {
-     "date": "2026-11-04",
-     "time": "13:00-17:00"
+     "time": "13:00-18:00"
     },
     {
      "date": "2026-11-05",
-     "time": "13:00-17:00"
+     "time": "13:00-18:00"
     },
     {
      "date": "2026-11-06",
-     "time": "13:00-17:00"
+     "time": "13:00-18:00"
     }
    ],
-   "durationDays": 5,
+   "durationDays": 4,
    "type": "Course",
    "language": "English",
    "method": "Virtual",
@@ -842,45 +742,6 @@
    "instructor": "Angel Georgiev"
   },
   {
-   "id": "153201",
-   "code": "SNPT-100",
-   "title": "ServiceNow Practitioners Training",
-   "link": "",
-   "start": "2027-02-09",
-   "end": "2027-02-12",
-   "time": "13:00-17:00",
-   "days": [
-    {
-     "date": "2027-02-09",
-     "time": "13:00-17:00"
-    },
-    {
-     "date": "2027-02-10",
-     "time": "13:00-17:00"
-    },
-    {
-     "date": "2027-02-11",
-     "time": "13:00-17:00"
-    },
-    {
-     "date": "2027-02-12",
-     "time": "13:00-17:00"
-    }
-   ],
-   "durationDays": 4,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "",
-   "status": "",
-   "description": "",
-   "price": null,
-   "category": "ServiceNow Practitioner",
-   "certification": "",
-   "role": "",
-   "instructor": ""
-  },
-  {
    "id": "153980",
    "code": "SA103",
    "title": "SAFe® AI-Empowered Scrum Master",
@@ -957,13 +818,8 @@
    "link": "",
    "start": "2027-02-22",
    "end": "2027-02-22",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2027-01-25",
-     "time": "09:00-17:00"
-    }
-   ],
+   "time": "",
+   "days": [],
    "durationDays": 1,
    "type": "Course",
    "language": "English",
@@ -976,6 +832,28 @@
    "certification": "No",
    "role": "Data Analyst; Data Engineer; Data Scientist",
    "instructor": "Rozalina Zaharieva"
+  },
+  {
+   "id": "157602",
+   "code": "PL-900",
+   "title": "Introduction to Microsoft Power Platform",
+   "link": "https://www.itce.com/courses-catalogue/introduction-to-microsoft-power-platform/",
+   "start": "2027-02-22",
+   "end": "2027-02-22",
+   "time": "",
+   "days": [],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Learn the business value and product capabilities of Microsoft Power Platform. Create simple Power Apps, connect data with Dataverse, build a Power BI Dashboard, automate processes with Power Automate, and build a chatbot with Power Virtual Agents",
+   "price": 385,
+   "category": "Technical",
+   "certification": "Yes",
+   "role": "Business users, analysts, and individuals aiming to enhance productivity by automating workflows, analyzing data for insights, and creating simple app experiences.",
+   "instructor": "Ivan Zhelyazkov"
   },
   {
    "id": "154015",
@@ -1213,13 +1091,8 @@
    "link": "https://www.itce.com/courses-catalogue/create-agents-in-microsoft-copilot-studio/",
    "start": "2027-03-19",
    "end": "2027-03-19",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2027-02-26",
-     "time": "09:00-17:00"
-    }
-   ],
+   "time": "",
+   "days": [],
    "durationDays": 1,
    "type": "Course",
    "language": "English",
@@ -1574,6 +1447,34 @@
    "certification": "No",
    "role": "Project managers, coordinators, team leaders, business users and analysts seeking foundational PM skills.",
    "instructor": ""
+  },
+  {
+   "id": "154145",
+   "code": "AIC-107",
+   "title": "AI+ Agent Specialty™",
+   "link": "https://www.itce.com/bg/courses-catalogue/ai-agent-2/",
+   "start": "2027-04-15",
+   "end": "2027-04-15",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-04-15",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "Full",
+   "description": "In this comprehensive training you will learn how to build and use AI agents for real business tasks, using practical tools and hands-on experience.",
+   "source": "bg",
+   "price": 385,
+   "category": "Artificial Intelligence (AI)",
+   "certification": "Yes",
+   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
+   "instructor": "Angel Georgiev"
   },
   {
    "id": "154035",
@@ -2171,29 +2072,8 @@
    "link": "https://www.itce.com/courses-catalogue/lean-portfolio-management/",
    "start": "2027-06-14",
    "end": "2027-06-18",
-   "time": "13:00-18:00",
-   "days": [
-    {
-     "date": "2026-06-21",
-     "time": "13:00-18:00"
-    },
-    {
-     "date": "2026-06-22",
-     "time": "13:00-18:00"
-    },
-    {
-     "date": "2026-06-23",
-     "time": "13:00-18:00"
-    },
-    {
-     "date": "2026-06-24",
-     "time": "13:00-18:00"
-    },
-    {
-     "date": "2026-06-25",
-     "time": "13:00-18:00"
-    }
-   ],
+   "time": "",
+   "days": [],
    "durationDays": 5,
    "type": "Course",
    "language": "English",
@@ -2580,29 +2460,8 @@
    "link": "https://www.itce.com/courses-catalogue/project-management-professional-pmp-preparation-course/",
    "start": "2027-11-22",
    "end": "2027-11-26",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2027-05-31",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2027-06-01",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2027-06-02",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2027-06-03",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2027-06-04",
-     "time": "09:00-17:00"
-    }
-   ],
+   "time": "",
+   "days": [],
    "durationDays": 5,
    "type": "Course",
    "language": "Bulgarian",

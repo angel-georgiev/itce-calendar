@@ -16,5 +16,8 @@ See README.md for the file layout.
 
 - itce.com returns 403 to non-browser user agents. `sync.py` therefore sends a browser UA.
 - The schedule lists both `<li class="course">` and `<li class="sequence">` entries.
+- Only sessions on the live schedule are shown. `sync.py` reads both the English and the Bulgarian schedule (`/bg/training-schedule/`), and adds any session that appears only on the Bulgarian one, linked to its Bulgarian course page.
+- Links must go directly to the course's own page. A link is kept only if the page header shows the same course code. If the schedule doesn't link a course, the script uses the previous or spreadsheet link, but only after the same check. Sessions with no course page get no link, and the page never falls back to the general schedule.
+- Under "Website data issues", `last-sync.md` lists sessions whose daily timetable on itce.com contains dates outside the session's own dates. Tell the user about these, because the website team needs to fix them.
 - Do not edit `data/sessions.json` by hand, because the next sync overwrites it.
 - Keep the source xlsx out of the repo, because it contains internal QA notes.

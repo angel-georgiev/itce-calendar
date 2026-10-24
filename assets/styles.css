@@ -136,6 +136,7 @@ tr.detail td { background: var(--row-hover); padding: 4px 16px 20px; box-shadow:
   background: var(--accent); color: var(--accent-text); font-weight: 600; text-decoration: none;
 }
 .btn-primary:hover { background: var(--accent-hover); }
+.no-link { margin: 16px 0 0; color: var(--muted); font-style: italic; }
 
 .empty { padding: 32px; text-align: center; color: var(--muted); }
 
