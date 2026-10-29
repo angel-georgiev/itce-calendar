@@ -4,9 +4,10 @@ The website is the source of truth for sessions, dates, language, format,
 learning method, description, course link and price. Both the English and the
 Bulgarian schedule are read; a session listed only on the Bulgarian one is added
 too. A course link is kept only if it opens that course's own page (the page
-header shows the same course code). data/enrichment.json
-adds what the website does not publish (instructor, category, certification
-exam, relevant role). A summary of what changed is written to data/last-sync.md.
+header shows the same course code). Category, "Who should attend" and what the
+price includes come from that course page; they are left empty where the website
+has none. Nothing comes from any other source. A summary of what changed is
+written to data/last-sync.md.
 
 Usage: python3 scripts/sync.py            (standard library only)
 """
@@ -23,7 +24,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 SESSIONS = DATA / "sessions.json"
-ENRICHMENT = DATA / "enrichment.json"
 REPORT = DATA / "last-sync.md"
 
 BASE = "https://www.itce.com/training-schedule/"
@@ -51,7 +51,7 @@ BG = {"months": MONTHS_BG, "type": "Вид", "language": "Език", "method": "
 WEBSITE_ISSUES = {}
 
 # Fields compared between runs to report changes.
-TRACKED = ["title", "start", "end", "language", "format", "method", "type", "status", "price", "link"]
+TRACKED = ["title", "start", "end", "language", "format", "method", "type", "status", "price", "link", "categories"]
 
 
 def fetch(url, retries=3):
@@ -65,10 +65,18 @@ def fetch(url, retries=3):
                 return None
             if attempt == retries - 1:
                 raise
-        except urllib.error.URLError:
+        except (urllib.error.URLError, ConnectionError, TimeoutError):
             if attempt == retries - 1:
                 raise
         time.sleep(2 ** attempt)
+
+
+def block_text(fragment):
+    """Like text(), but keeps one line per paragraph or list item."""
+    fragment = re.sub(r"</(?:p|li|h\d)>|<br\s*/?>", "\n", fragment)
+    fragment = html.unescape(re.sub(r"<[^>]+>", "", fragment)).replace("\xa0", " ")
+    lines = (re.sub(r"[ \t]+", " ", line).strip() for line in fragment.split("\n"))
+    return "\n".join(line for line in lines if line)
 
 
 def text(fragment):
@@ -168,10 +176,19 @@ def scrape_schedule(base=BASE, loc=EN):
     return list(sessions.values())
 
 
-def course_page(url, cache):
-    """Course pages show 'CODE | 5 days | €2090' near the title; the price sits in a VAT tooltip span.
+def scrape_categories():
+    """Category slug -> name, from the category filter on the schedule page."""
+    body = fetch(BASE) or ""
+    return {slug: text(name) for slug, name in
+            re.findall(r'<option class="level-0" value="([^"]+)">(.*?)</option>', body, re.S)}
 
-    Returns {"code", "price", "en_url", "excerpt"}, or None if the page is missing.
+
+def course_page(url, cache):
+    """Course pages show 'CODE | 5 days | €2090' near the title; the price sits in a VAT tooltip span,
+    whose second line (when present) says what the price includes.
+
+    Returns {"code", "price", "price_note", "en_url", "excerpt", "categories", "audience"},
+    or None if the page is missing.
     """
     if url not in cache:
         body = fetch(url)
@@ -185,17 +202,24 @@ def course_page(url, cache):
                 price = int(digits) if digits else None
             en = re.search(r'<link rel="alternate" href="([^"]+)" hreflang="en"', body)
             excerpt = re.search(r'<div class="course-excerpt">(.*?)</div>', body, re.S)
+            note = re.search(r'class="tooltip-message">(.*?)</span>', body, re.S)
+            note = [line for line in text(note.group(1)).split("\n") if "VAT" not in line] if note else []
+            article = re.search(r'<article id="post-\d+" class="([^"]*)"', body)
+            cats = re.findall(r"course-category-([a-z0-9-]+)", article.group(1)) if article else []
+            # "Who should attend?" is an h2 section or an h3 inside the FAQ; take the text up to the next heading.
+            who = re.search(r"<(h[23])[^>]*>(?:(?!</h[23]>).)*Who should attend(?:(?!</h[23]>).)*</h[23]>"
+                            r'(.*?)(?=<h[1-3][ >]|<div class="wp-block-group alignfull)', body, re.S)
             info = {"code": text(code.group(1)) if code else None, "price": price,
+                    "price_note": " ".join(note).strip(),
                     "en_url": html.unescape(en.group(1)) if en else None,
-                    "excerpt": text(excerpt.group(1)) if excerpt else ""}
+                    "excerpt": text(excerpt.group(1)) if excerpt else "",
+                    "categories": list(dict.fromkeys(cats)),
+                    "audience": block_text(who.group(2)) if who else ""}
         cache[url] = info
     return cache[url]
 
 
 def main():
-    enrichment = json.loads(ENRICHMENT.read_text(encoding="utf-8"))
-    courses = enrichment.get("courses", {})
-    instructors = enrichment.get("instructors", {})
     previous = {}
     if SESSIONS.exists():
         previous = {s["id"]: s for s in json.loads(SESSIONS.read_text(encoding="utf-8"))["sessions"]}
@@ -207,6 +231,7 @@ def main():
         sys.exit(f"Only {len(sessions)} English / {len(sessions_bg)} Bulgarian sessions parsed (< {MIN_SESSIONS}); "
                  "website markup may have changed. Nothing written.")
 
+    category_names = scrape_categories()
     page_cache = {}
     # Sessions listed only on the Bulgarian schedule. Prefer the English title and description.
     known = {(s["code"], s["start"]) for s in sessions}
@@ -221,8 +246,8 @@ def main():
 
     rejected, recovered = [], []
     previous_links = {p["code"]: p["link"] for p in previous.values() if p.get("link")}
+    unknown_categories = set()
     for s in sessions:
-        extra = courses.get(s["code"], {})
         info = course_page(s["link"], page_cache) if s["link"] else None
         if s["link"] and (not info or info["code"] != s["code"]):
             rejected.append(f"{label(s)}: {s['link']} (page code: {info and info['code']!r})")
@@ -230,24 +255,31 @@ def main():
         if not s["link"]:
             # The schedule entry has no (valid) link: fall back to a known course page, but only if that
             # page is live and is this course's own page.
-            for url in (previous_links.get(s["code"]), extra.get("link")):
-                cand = course_page(url, page_cache) if url else None
+            url = previous_links.get(s["code"])
+            if url:
+                cand = course_page(url, page_cache)
                 if cand and cand["code"] == s["code"]:
                     s["link"], info = url, cand
                     recovered.append(f"{label(s)}: {url}")
-                    break
+        # A Bulgarian course page: read category, audience and price note from its English version.
+        en = course_page(info["en_url"], page_cache) if info and info["en_url"] and info["en_url"] != s["link"] else None
+        meta = en if en and en["code"] == s["code"] else info
         s["price"] = info["price"] if info else None
-        s["category"] = extra.get("category", "")
-        s["certification"] = extra.get("certification", "")
-        s["role"] = extra.get("role", "")
-        s["instructor"] = instructors.get(f"{s['code']}|{s['start']}", "")
+        s["priceNote"] = meta["price_note"] if meta else ""
+        s["audience"] = meta["audience"] if meta else ""
+        s["categories"] = []
+        for slug in (meta["categories"] if meta else []):
+            if slug in category_names:
+                s["categories"].append(category_names[slug])
+            else:
+                unknown_categories.add(slug)
     sessions.sort(key=lambda s: (s["start"], s["code"]))
 
     now = datetime.now(timezone.utc)
     SESSIONS.write_text(json.dumps(
         {"updated": now.isoformat(timespec="seconds"), "source": BASE, "sessions": sessions},
         ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
-    REPORT.write_text(report(sessions, previous, instructors, now, bg_only, rejected, recovered), encoding="utf-8")
+    REPORT.write_text(report(sessions, previous, now, bg_only, rejected, recovered, unknown_categories), encoding="utf-8")
     print(f"Wrote {SESSIONS.relative_to(ROOT)} ({len(sessions)} sessions) and {REPORT.relative_to(ROOT)}", file=sys.stderr)
 
 
@@ -255,7 +287,7 @@ def label(s):
     return f"{s['code']} {s['title']} ({s['start']} – {s['end']}, {s['language'] or 'language n/a'})"
 
 
-def report(sessions, previous, instructors, now, bg_only, rejected, recovered):
+def report(sessions, previous, now, bg_only, rejected, recovered, unknown_categories):
     today = now.date().isoformat()
     current = {s["id"]: s for s in sessions}
     lines = [f"# Sync report — {now:%Y-%m-%d %H:%M} UTC", "",
@@ -284,13 +316,9 @@ def report(sessions, previous, instructors, now, bg_only, rejected, recovered):
             [f"{c} {a} – {b}: website lists " + ", ".join(date(2000, m, dd).strftime("%d %b") for m, dd in sorted(d))
              for (c, a, b), d in sorted(WEBSITE_ISSUES.items())])
 
-    keys = {f"{s['code']}|{s['start']}" for s in sessions}
-    section("Instructor assignments for upcoming dates with no matching website session",
-            sorted(k.replace("|", " on ") + f" — {v}" for k, v in instructors.items()
-                   if k.split("|")[1] >= today and k not in keys))
-    section("Sessions without instructor", [label(s) for s in sessions if not s["instructor"]])
-    section("Sessions without category", [label(s) for s in sessions if not s["category"]])
-    section("Sessions without course link", [label(s) for s in sessions if not s["link"]])
+    section("Sessions without course page (no link, category or price)", [label(s) for s in sessions if not s["link"]])
+    section("Course pages without a category", [label(s) for s in sessions if s["link"] and not s["categories"]])
+    section("Category slugs not in the schedule's category list (left out)", sorted(unknown_categories))
     section("Sessions without price on course page", [label(s) for s in sessions if s["link"] and s["price"] is None])
     return "\n".join(lines)
 

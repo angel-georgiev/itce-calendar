@@ -17,7 +17,8 @@
   }
 
   // filter: "text" (contains), "select" (exact), "month" (start month), "max" (numeric ≤)
-  // cell: renders from the whole session; optional: hidden on mid-size screens and shown in the row details instead
+  // cell: renders from the whole session; optional: hidden on mid-size screens and shown in the row details instead;
+  // list: the value is an array (a session can have several categories), filtered by membership
   const COLUMNS = [
     { key: "code", label: "Code", filter: "text" },
     { key: "title", label: "Course", filter: "text" },
@@ -26,14 +27,21 @@
     { key: "format", label: "Format", filter: "select" },
     { key: "method", label: "Method", filter: "select", optional: true },
     { key: "type", label: "Type", filter: "select", optional: true },
-    { key: "category", label: "Category", filter: "select" },
+    { key: "categories", label: "Category", filter: "select", list: true },
     { key: "language", label: "Language", filter: "select" },
-    { key: "certification", label: "Cert. exam", filter: "select", optional: true },
-    { key: "instructor", label: "Instructor", filter: "select" },
     { key: "price", label: "Price €", filter: "max", numeric: true, render: (v) => (v == null ? "" : v.toLocaleString("en-GB")) },
   ];
 
+  const CONTACT_EMAIL = "businessdev@itce.com";
+  const mailto = (s) => {
+    const course = `${s.code} ${s.title}, ${fmtRange(s.start, s.end)}${s.language ? ` (${s.language})` : ""}`;
+    const subject = `Information request: ${course}`;
+    const body = `Hello,\n\nI would like more information about ${course}: price, course content and how to register.\n\nThank you.`;
+    return `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+  };
+
   const state = { sessions: [], filters: {}, q: "", sortKey: "start", sortDir: 1, open: new Set() };
+  const val = (s, col) => (col.list ? (s[col.key] || []).join(", ") : s[col.key]);
   const $ = (id) => document.getElementById(id);
   const el = (tag, props = {}, ...children) => {
     const node = Object.assign(document.createElement(tag), props);
@@ -76,10 +84,12 @@
         control = el("select", { id }, el("option", { value: "", textContent: "All" }));
         const values = new Map();
         for (const s of state.sessions) {
-          const raw = col.filter === "month" ? s.start.slice(0, 7) : s[col.key];
-          if (raw === "" || raw == null) continue;
-          const label = col.filter === "month" ? fmtMonth(s.start) : col.render ? col.render(raw) : raw;
-          values.set(String(raw), label);
+          const raws = col.filter === "month" ? [s.start.slice(0, 7)] : col.list ? s[col.key] || [] : [s[col.key]];
+          for (const raw of raws) {
+            if (raw === "" || raw == null) continue;
+            const label = col.filter === "month" ? fmtMonth(s.start) : col.render ? col.render(raw) : raw;
+            values.set(String(raw), label);
+          }
         }
         const keys = [...values.keys()].sort((a, b) => (col.numeric ? a - b : a.localeCompare(b)));
         for (const k of keys) control.append(el("option", { value: k, textContent: values.get(k) }));
@@ -95,7 +105,7 @@
 
   function matches(s) {
     if (state.q) {
-      const hay = [s.code, s.title, s.instructor, s.category, s.description, s.role].join(" ").toLowerCase();
+      const hay = [s.code, s.title, (s.categories || []).join(" "), s.description, s.audience].join(" ").toLowerCase();
       if (!state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w))) return false;
     }
     for (const col of COLUMNS) {
@@ -103,7 +113,7 @@
       if (!f || !col.filter) continue;
       const v = s[col.key];
       if (col.filter === "text" && !String(v || "").toLowerCase().includes(f.toLowerCase())) return false;
-      if (col.filter === "select" && String(v) !== f) return false;
+      if (col.filter === "select" && (col.list ? !(v || []).includes(f) : String(v) !== f)) return false;
       if (col.filter === "month" && s.start.slice(0, 7) !== f) return false;
       if (col.filter === "max" && (v == null || v > Number(f))) return false;
     }
@@ -112,7 +122,7 @@
 
   function compare(a, b) {
     const col = COLUMNS.find((c) => c.key === state.sortKey) || COLUMNS[2];
-    const va = a[col.key], vb = b[col.key];
+    const va = val(a, col), vb = val(b, col);
     // Empty values always sort last, whichever direction.
     const ea = va === "" || va == null, eb = vb === "" || vb == null;
     if (ea || eb) return ea === eb ? 0 : ea ? 1 : -1;
@@ -162,7 +172,7 @@
       const tr = el("tr", { className: "row" + (open ? " is-open" : ""), tabIndex: 0 });
       tr.setAttribute("aria-expanded", open);
       for (const col of COLUMNS) {
-        const v = s[col.key];
+        const v = val(s, col);
         const td = el("td");
         td.dataset.label = col.label;
         td.dataset.key = col.key;
@@ -194,15 +204,18 @@
     for (const d of s.days || []) days.append(el("li", {}, el("strong", { textContent: DAY_FMT.format(new Date(d.date + "T00:00:00Z")) }), " ", d.time));
     const info = el("div", { className: "detail-grid" });
     if (s.description) info.append(el("div", {}, el("h3", { textContent: "About this course" }), el("p", { textContent: s.description })));
-    if (s.role) info.append(el("div", {}, el("h3", { textContent: "Who should attend" }), el("p", { textContent: s.role })));
+    if (s.audience) info.append(el("div", {}, el("h3", { textContent: "Who should attend" }), el("p", { className: "lines", textContent: s.audience })));
     if (s.days && s.days.length) info.append(el("div", {}, el("h3", { textContent: "Schedule" }), days));
+    if (s.priceNote) info.append(el("div", {}, el("h3", { textContent: "Price" }), el("p", { textContent: s.priceNote })));
     const facts = el("dl", { className: "facts" });
     for (const col of COLUMNS.filter((c) => c.optional)) facts.append(el("dt", { textContent: col.label }), el("dd", { textContent: s[col.key] || "—" }));
     info.append(el("div", { className: "facts-opt" }, el("h3", { textContent: "Course facts" }), facts));
-    // Only direct links to the course's own page; no generic fallback.
+    // Only direct links to the course's own page. Without one, customers can ask business development by email.
     const link = s.link
       ? el("a", { className: "btn-primary", href: s.link, target: "_blank", rel: "noopener", textContent: "Details & registration on itce.com" })
-      : el("p", { className: "no-link", textContent: "No course page on itce.com yet." });
+      : el("div", { className: "no-link" },
+          el("p", { textContent: `This course has no page on itce.com yet. Email ${CONTACT_EMAIL} for details and registration.` }),
+          el("a", { className: "btn-primary", href: mailto(s), textContent: "Request information" }));
     return el("tr", { className: "detail" }, el("td", { colSpan: COLUMNS.length }, el("div", { className: "detail-inner" }, info, link)));
   }
 

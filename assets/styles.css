@@ -118,13 +118,14 @@ tr.detail td { background: var(--row-hover); padding: 4px 16px 20px; box-shadow:
 .detail-grid { display: grid; gap: 8px 32px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 .detail-grid h3 { margin: 8px 0 4px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
 .detail-grid p { margin: 0; max-width: 65ch; }
+.detail-grid p.lines { white-space: pre-line; }
 .facts-opt { display: none; }
 .facts { display: grid; grid-template-columns: max-content 1fr; gap: 2px 16px; margin: 0; }
 .facts dt { color: var(--muted); }
 .facts dd { margin: 0; font-weight: 600; }
 
-/* Mid-size screens: drop low-priority columns so the table fits; they appear in the row details. */
-@media (min-width: 1024px) and (max-width: 1365px) {
+/* Narrow laptop screens: drop low-priority columns so the table fits; they appear in the row details. */
+@media (min-width: 1024px) and (max-width: 1279px) {
   .col-opt { display: none; }
   .facts-opt { display: block; }
   td, th .sort { padding-left: 8px; padding-right: 8px; }
@@ -136,7 +137,8 @@ tr.detail td { background: var(--row-hover); padding: 4px 16px 20px; box-shadow:
   background: var(--accent); color: var(--accent-text); font-weight: 600; text-decoration: none;
 }
 .btn-primary:hover { background: var(--accent-hover); }
-.no-link { margin: 16px 0 0; color: var(--muted); font-style: italic; }
+.no-link p { margin: 16px 0 0; color: var(--muted); }
+.no-link .btn-primary { margin-top: 10px; }
 
 .empty { padding: 32px; text-align: center; color: var(--muted); }
 
@@ -167,7 +169,6 @@ tr.detail td { background: var(--row-hover); padding: 4px 16px 20px; box-shadow:
   }
   tr.row.is-open { border-radius: var(--radius) var(--radius) 0 0; margin-bottom: 0; border-bottom: 0; }
   tr.row td { border: 0; padding: 2px 0; min-width: 0; overflow-wrap: anywhere; }
-  td[data-key="instructor"] { min-width: 0; }
   .detail-inner { position: static; max-width: none; }
   tr.row td::before { content: attr(data-label); display: block; font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
   tr.row td[data-key="code"]::before, tr.row td[data-key="title"]::before { display: none; }

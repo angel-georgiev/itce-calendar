@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T07:41:42+00:00",
+ "updated": "2026-10-29T10:52:41+00:00",
  "source": "https://www.itce.com/training-schedule/",
  "sessions": [
   {
@@ -34,16 +34,17 @@
    ],
    "durationDays": 5,
    "type": "Course",
-   "language": "English",
+   "language": "Bulgarian",
    "method": "Virtual",
    "format": "All day",
    "status": "",
    "description": "Upgrade to ITIL® Managing Professional (Version 5) through a single, streamlined transition course focused exclusively on the latest updates across Product, Service, Experience, and Transformation management.",
    "price": 2090,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Available for ITIL 4 Managing Professionals, ITIL 4 Masters, ITIL v3 Experts, and ITIL v3 Masters only.",
-   "instructor": "Anton Genchev"
+   "priceNote": "The price includes 2 certification exams and an e-book.",
+   "audience": "This course is designed for professionals who already hold ITIL 4 or ITIL v3 advanced certifications and want an efficient route to achieving ITIL Managing Professional (Version 5).",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "153397",
@@ -79,10 +80,11 @@
    "status": "",
    "description": "During this course, you’ll learn the principles and practices of the Scaled Agile Framework® (SAFe) and what it means to lead a Lean-Agile transformation at enterprise scale.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Executives, Managers, and Transformation Ambassadors in departments like Finance, Vendor Management, and Procurement.",
-   "instructor": "Zahari Barbov"
+   "priceNote": "",
+   "audience": "Leading SAFe is a course aimed at Executives, Leaders, and Managers who will be leading the Agile transformation.",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "151372",
@@ -106,10 +108,11 @@
    "status": "New",
    "description": "Learn how to build AI systems that understand context, deliver accurate results, and adapt to real-world scenarios using practical tools and techniques.",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "This course is ideal for AI professionals, developers, and data specialists looking to build more reliable and scalable AI systems, as well as business and technical leaders who want to design context-aware AI solutions for real-world applications. It is also valuable for anyone involved in AI implementation, automation, or digital transformation initiatives.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "153216",
@@ -130,13 +133,15 @@
    "language": "English",
    "method": "Virtual",
    "format": "3-hour",
-   "status": "Full",
+   "status": "",
    "description": "Discover how Microsoft Copilot can help you work more efficiently and get more done. Learn the fundamentals of generative AI, explore Copilot’s capabilities, and develop effective prompting skills to research information, create content, and enhance productivity in everyday work.",
    "price": 145,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "No",
-   "role": "Business User, End User, Knowledge Worker, Student, Professional, Office Worker, Team Member, Manager",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "This course is ideal for anyone new to Microsoft Copilot or generative AI – students, professionals across all business functions, and anyone curious about AI. No technical background is required, though basic computer literacy and familiarity with Microsoft 365 applications is recommended.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "145229",
@@ -176,10 +181,11 @@
    "status": "Full",
    "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "This course is aimed at all team members who apply Lean and Agile at scale and all members of an Agile Release Train preparing for launch.",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "153613",
@@ -211,10 +217,11 @@
    "status": "Full",
    "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
-   "instructor": "Todor Pavlov"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "Anyone working in IT will benefit from attending this foundation-level course.\nITIL® 5 Foundation introduces the shared language, core concepts, and unified lifecycle for managing digital products and services. It establishes a foundational understanding of value creation, collaboration, governance, and continual improvement.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "153680",
@@ -246,10 +253,11 @@
    "status": "",
    "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
-   "instructor": "Anton Genchev"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "Anyone working in IT will benefit from attending this foundation-level course.\nITIL® 5 Foundation introduces the shared language, core concepts, and unified lifecycle for managing digital products and services. It establishes a foundational understanding of value creation, collaboration, governance, and continual improvement.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "154772",
@@ -289,10 +297,11 @@
    "status": "",
    "description": "Receive solid preparation for the PMP® exam by having a focused walk-through of the exam content and completing lots of practice tests joined by valuable group discussions.",
    "price": 1150,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Aspiring PMP® candidates, project managers, and professionals seeking to enhance project management skills and achieve PMI certification.",
-   "instructor": "Ivan Vaptsarov"
+   "priceNote": "",
+   "audience": "Anyone who is preparing for the PMP® exam. You can be at any stage of the preparation process. The best results are achieved if you have already started your preparation and plan to take the exam within 3 months of completing the training.",
+   "categories": [
+    "Project Management"
+   ]
   },
   {
    "id": "145416",
@@ -332,10 +341,11 @@
    "status": "",
    "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Scrum Masters, Agile Coaches, and Agile Team Facilitators in a SAFe or enterprise Agile context.",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "The following individuals will benefit from this course:\nExisting Scrum Masters\nTeam leaders, project managers, and others assuming the role of an Agile Team facilitator in a SAFe or enterprise Agile context\nEngineering and development managers responsible for Agile execution and coaching teams, including teams of teams\nAgile coaches\nAgile Program Managers\nProspective SAFe Release Train Engineers",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "145761",
@@ -371,10 +381,11 @@
    "status": "",
    "description": "This course teaches IT Professionals how to manage their Azure subscriptions, virtual machines, and the integration of Azure and on-premises sites.",
    "price": 1250,
-   "category": "Technical",
-   "certification": "Yes",
-   "role": "Successful students have experience and knowledge in IT operations, including networking, virtualization, identity, security, business continuity, disaster recovery, data platforms, and governance. Students also have experience designing and architecting solutions.",
-   "instructor": "Valeri Zahariev"
+   "priceNote": "Тhe price includes a certification exam and and MeasureUp practice tests.",
+   "audience": "This course is for Azure Administrators. The Azure Administrator implements, manages, and monitors identity, governance, storage, compute, and virtual networks in a cloud environment. Azure Administrators provision, size, monitor, and adjust resources as appropriate.",
+   "categories": [
+    "Microsoft"
+   ]
   },
   {
    "id": "154422",
@@ -398,10 +409,9 @@
    "status": "",
    "description": "",
    "price": null,
-   "category": "Technical",
-   "certification": "Yes",
-   "role": "Data Engineer; Data Analyst; Database Administrator",
-   "instructor": ""
+   "priceNote": "",
+   "audience": "",
+   "categories": []
   },
   {
    "id": "148124",
@@ -437,10 +447,12 @@
    "status": "",
    "description": "",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Software Engineers Development Managers Release Managers QA Leads Infrastructure Architects Scrum Masters Product Owners",
-   "instructor": "Nina Prodanova"
+   "priceNote": "",
+   "audience": "Software Engineers, Development Managers, Release Managers, QA Leads, Infrastructure Architects, Scrum Masters, Product Owners",
+   "categories": [
+    "Agile",
+    "DevOps"
+   ]
   },
   {
    "id": "155876",
@@ -480,10 +492,11 @@
    "status": "",
    "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "This course is aimed at all team members who apply Lean and Agile at scale and all members of an Agile Release Train preparing for launch.",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "148357",
@@ -515,10 +528,11 @@
    "status": "",
    "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
-   "instructor": "Todor Pavlov"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "Anyone working in IT will benefit from attending this foundation-level course.\nITIL® 5 Foundation introduces the shared language, core concepts, and unified lifecycle for managing digital products and services. It establishes a foundational understanding of value creation, collaboration, governance, and continual improvement.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "153214",
@@ -539,13 +553,44 @@
    "language": "English",
    "method": "Virtual",
    "format": "3-hour",
-   "status": "",
+   "status": "Full",
    "description": "Learn how to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Teams, Outlook, and Copilot Chat to create content, analyze data, and work more efficiently.",
    "price": 145,
-   "category": "Microsoft Copilot",
-   "certification": "No",
-   "role": "Business User, Microsoft 365 User, Manager, Team Lead, Project Manager, Business Analyst, Professional",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "The course is designed for business users with a basic understanding of Microsoft 365 who want to deepen their skills in drafting, analyzing, and presenting data using Microsoft 365 Copilot. It is suitable for individuals seeking to streamline workflows, improve collaboration, and make data-driven decisions.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
+  },
+  {
+   "id": "158158",
+   "code": "AB-730",
+   "title": "Transform business workflows with generative AI",
+   "link": "https://www.itce.com/courses-catalogue/transform-business-workflows-with-generative-ai-3/",
+   "start": "2027-01-15",
+   "end": "2027-01-15",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-01-15",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Learn how to apply generative AI to everyday business workflows and use Microsoft 365 Copilot to improve productivity, collaboration, and decision-making.",
+   "price": 385,
+   "priceNote": "",
+   "audience": "The course is designed for professionals from a wide range of business functions, including marketing, sales, operations, product management, customer success, human resources, and finance. It is suitable for those looking to enhance their productivity, streamline workflows, and confidently demonstrate AI skills in a modern workplace.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "154122",
@@ -577,10 +622,11 @@
    "status": "",
    "description": "ITIL® Transformation (Version 5) provides practical guidance for leading organizational change, balancing governance and execution, and delivering measurable value in complex, AI-driven environments.",
    "price": 1540,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Digital Transformation Manager, Change Manager, Service Improvement Manager, Practice Owner, Digital Product Manager, Experience Manager, Solution Designer, Strategy Analyst, IT Director, Business and Transformation Consultant, C-suite roles",
-   "instructor": "Anton Genchev"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "This course is suitable for transformation leaders, change managers, IT and service managers, digital product managers, consultants, team leaders, and professionals involved in planning, leading, or supporting organizational transformation.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "153824",
@@ -620,10 +666,11 @@
    "status": "",
    "description": "This course aims to present enterprise architecture concepts based on the newest TOGAF® 10 version in a practical way.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Business users, analysts, and individuals aiming to enhance productivity by automating workflows, analyzing data for insights, and creating simple app experiences.",
-   "instructor": "Nina Prodanova"
+   "priceNote": "",
+   "audience": "This training is suitable for professionals who require basic to advanced knowledge of TOGAF and those who participate in Architecture projects and initiatives as well as those who are into development of Architecture artefacts.",
+   "categories": [
+    "Architecture"
+   ]
   },
   {
    "id": "154418",
@@ -647,10 +694,9 @@
    "status": "",
    "description": "",
    "price": null,
-   "category": "Technical",
-   "certification": "No",
-   "role": "Data Analyst; Data Engineer",
-   "instructor": "Rozalina Zaharieva"
+   "priceNote": "",
+   "audience": "",
+   "categories": []
   },
   {
    "id": "154025",
@@ -682,10 +728,11 @@
    "status": "",
    "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
-   "instructor": "Angel Georgiev"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "Anyone working in IT will benefit from attending this foundation-level course.\nITIL® 5 Foundation introduces the shared language, core concepts, and unified lifecycle for managing digital products and services. It establishes a foundational understanding of value creation, collaboration, governance, and continual improvement.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "155969",
@@ -709,10 +756,11 @@
    "status": "",
    "description": "This certification program introduces learners to the fundamentals of AI and prompt engineering. Through theory and hands-on projects, participants gain the skills to create and apply prompts across various domains.",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "This program is suitable for individuals from diverse backgrounds and levels of expertise who want to gain a comprehensive understanding of AI and prompt engineering. It is ideal for AI developers, data scientists, educators, and anyone interested in harnessing the full potential of AI models through effective prompting.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "153212",
@@ -736,10 +784,12 @@
    "status": "",
    "description": "Learn how to create and use AI-powered agents in Microsoft 365 Copilot Chat and SharePoint to automate tasks, streamline workflows, and improve productivity.",
    "price": 145,
-   "category": "Microsoft Copilot",
-   "certification": "No",
-   "role": "Business User, Microsoft 365 User, Team Lead, Manager, Project Manager, Administrator, Professional",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "The course targets everyday Microsoft 365 business users. No programming experience is required to create Microsoft 365 Copilot Chat agents and SharePoint agents.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "153980",
@@ -779,10 +829,39 @@
    "status": "",
    "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Scrum Masters, Agile Coaches, and Agile Team Facilitators in a SAFe or enterprise Agile context.",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "The following individuals will benefit from this course:\nExisting Scrum Masters\nTeam leaders, project managers, and others assuming the role of an Agile Team facilitator in a SAFe or enterprise Agile context\nEngineering and development managers responsible for Agile execution and coaching teams, including teams of teams\nAgile coaches\nAgile Program Managers\nProspective SAFe Release Train Engineers",
+   "categories": [
+    "Agile"
+   ]
+  },
+  {
+   "id": "157742",
+   "code": "AZ-900",
+   "title": "Introduction to Cloud Infrastructure",
+   "link": "https://www.itce.com/courses-catalogue/introduction-to-cloud-infrastructure/",
+   "start": "2027-02-18",
+   "end": "2027-02-18",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-18",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "This two-day course will provide foundational level knowledge on core Azure concepts; core Azure services; core solutions and management tools; general security and network security; governance, privacy, and compliance features; Azure cost management and service level agreements.",
+   "price": 385,
+   "priceNote": "",
+   "audience": "This course is suitable for program managers and technical sales, with a general IT background. These students want to learn about our offerings, see how components are implemented, and ask questions about products and features.",
+   "categories": [
+    "Microsoft"
+   ]
   },
   {
    "id": "153208",
@@ -806,10 +885,41 @@
    "status": "",
    "description": "Learn how to build AI agents and extend Microsoft 365 Copilot by exploring Microsoft’s agent ecosystem, development tools, and extensibility options.",
    "price": 145,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "No",
-   "role": "Business User, Developer, Business Analyst, Solution Architect, IT Professional, Consultant, AI Enthusiast, Professional",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "The course is designed for developers and App Makers interested in building AI agents and extending Microsoft 365 Copilot. It is ideal for learners who want to deepen their understanding of Microsoft’s agent development options and plan to use low-code or pro-code agent development tools.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
+  },
+  {
+   "id": "158156",
+   "code": "AB-731",
+   "title": "Drive AI transformation in your organization",
+   "link": "https://www.itce.com/courses-catalogue/drive-ai-transformation-in-our-organization/",
+   "start": "2027-02-19",
+   "end": "2027-02-19",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-19",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Learn how to identify AI opportunities, align AI initiatives with business goals, and drive successful AI adoption across your organization.",
+   "price": 385,
+   "priceNote": "",
+   "audience": "The course targets business users who want to enhance their Microsoft 365 Copilot skills through role-specific use case scenarios. Important: Before attending, learners should be familiar with how Microsoft 365 Copilot works across M365 applications, including Copilot Chat and Copilot Agents.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "154424",
@@ -818,8 +928,13 @@
    "link": "",
    "start": "2027-02-22",
    "end": "2027-02-22",
-   "time": "",
-   "days": [],
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-22",
+     "time": "09:00-17:00"
+    }
+   ],
    "durationDays": 1,
    "type": "Course",
    "language": "English",
@@ -828,10 +943,45 @@
    "status": "",
    "description": "",
    "price": null,
-   "category": "Technical",
-   "certification": "No",
-   "role": "Data Analyst; Data Engineer; Data Scientist",
-   "instructor": "Rozalina Zaharieva"
+   "priceNote": "",
+   "audience": "",
+   "categories": []
+  },
+  {
+   "id": "158110",
+   "code": "I801",
+   "title": "ITIL® Foundation (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-5-foundation/",
+   "start": "2027-02-22",
+   "end": "2027-02-24",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-22",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-02-23",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-02-24",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 3,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
+   "price": 1080,
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "Anyone working in IT will benefit from attending this foundation-level course.\nITIL® 5 Foundation introduces the shared language, core concepts, and unified lifecycle for managing digital products and services. It establishes a foundational understanding of value creation, collaboration, governance, and continual improvement.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "157602",
@@ -840,8 +990,13 @@
    "link": "https://www.itce.com/courses-catalogue/introduction-to-microsoft-power-platform/",
    "start": "2027-02-22",
    "end": "2027-02-22",
-   "time": "",
-   "days": [],
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-22",
+     "time": "09:00-17:00"
+    }
+   ],
    "durationDays": 1,
    "type": "Course",
    "language": "Bulgarian",
@@ -850,10 +1005,11 @@
    "status": "",
    "description": "Learn the business value and product capabilities of Microsoft Power Platform. Create simple Power Apps, connect data with Dataverse, build a Power BI Dashboard, automate processes with Power Automate, and build a chatbot with Power Virtual Agents",
    "price": 385,
-   "category": "Technical",
-   "certification": "Yes",
-   "role": "Business users, analysts, and individuals aiming to enhance productivity by automating workflows, analyzing data for insights, and creating simple app experiences.",
-   "instructor": "Ivan Zhelyazkov"
+   "priceNote": "",
+   "audience": "Candidates for this exam are users who aspire to improve productivity by automating business processes, analyzing data to produce business insights, and acting more effectively by creating simple app experiences.",
+   "categories": [
+    "Microsoft"
+   ]
   },
   {
    "id": "154015",
@@ -885,10 +1041,11 @@
    "status": "",
    "description": "Configure and Manage a ServiceNow Instance.",
    "price": 1965,
-   "category": "Technical",
-   "certification": "Yes",
-   "role": "ServiceNow Administrators",
-   "instructor": "Krasimir Parushev"
+   "priceNote": "",
+   "audience": "This course is designed to be the introduction-to-intermediate point for those performing ServiceNow system administration responsibilities within an organization.",
+   "categories": [
+    "ServiceNow Technical"
+   ]
   },
   {
    "id": "153206",
@@ -912,10 +1069,35 @@
    "status": "",
    "description": "Learn how to extend Microsoft 365 Copilot with custom agents, knowledge sources, and actions using Microsoft Copilot Studio.",
    "price": 145,
-   "category": "Microsoft Copilot Studio",
-   "certification": "No",
-   "role": "Power Platform Developer, Developer, Solution Architect, Business Analyst, Microsoft 365 Administrator, Consultant, AI Agent Creator, Professional",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "The course targets developers and App Makers interested in using Copilot Studio to build agents that improve individual and team productivity. Learners should be familiar with Microsoft 365 Copilot.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
+  },
+  {
+   "id": "153972",
+   "code": "SA105",
+   "title": "AI-Empowered SAFe® for Teams",
+   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
+   "start": "2027-03-08",
+   "end": "2027-03-12",
+   "time": "",
+   "days": [],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
+   "price": 1080,
+   "priceNote": "",
+   "audience": "This course is aimed at all team members who apply Lean and Agile at scale and all members of an Agile Release Train preparing for launch.",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "154120",
@@ -939,10 +1121,12 @@
    "status": "Full",
    "description": "Discover how Microsoft Copilot can help you work more efficiently and get more done. Learn the fundamentals of generative AI, explore Copilot’s capabilities, and develop effective prompting skills to research information, create content, and enhance productivity in everyday work.",
    "price": 145,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "No",
-   "role": "Business User, End User, Knowledge Worker, Student, Professional, Office Worker, Team Member, Manager",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "This course is ideal for anyone new to Microsoft Copilot or generative AI – students, professionals across all business functions, and anyone curious about AI. No technical background is required, though basic computer literacy and familiarity with Microsoft 365 applications is recommended.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "154154",
@@ -966,10 +1150,11 @@
    "status": "",
    "description": "This certification program is designed for Project Managers and IT professionals seeking expertise in integrating AI with real-world development challenges.",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "Project Managers, IT Professionals",
-   "instructor": "Emanuil Mavrodiev"
+   "priceNote": "",
+   "audience": "This course is suitable for project managers, IT professionals, and anyone interested in using AI to improve project planning, team collaboration, and data-driven decision making.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "154179",
@@ -1009,10 +1194,11 @@
    "status": "",
    "description": "During this course, you’ll learn the principles and practices of the Scaled Agile Framework® (SAFe) and what it means to lead a Lean-Agile transformation at enterprise scale.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Executives, Managers, and Transformation Ambassadors in departments like Finance, Vendor Management, and Procurement.",
-   "instructor": "Zahari Barbov"
+   "priceNote": "",
+   "audience": "Leading SAFe is a course aimed at Executives, Leaders, and Managers who will be leading the Agile transformation.",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "153974",
@@ -1052,10 +1238,12 @@
    "status": "",
    "description": "During this advanced course, you will master architecting for continuous value flow with SAFe®.",
    "price": 1900,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "System Architects, Solution Architects, Enterprise Architects, and Technical Managers.",
-   "instructor": "Nina Prodanova"
+   "priceNote": "",
+   "audience": "The following individuals will benefit from this course:\nSystem, Solution, and Enterprise architects\nArchitects in supporting technical disciplines\nExperienced software developers\nTechnical managers making architectural decisions\nProduct leaders collaborating with architects",
+   "categories": [
+    "Agile",
+    "Architecture"
+   ]
   },
   {
    "id": "154142",
@@ -1079,10 +1267,11 @@
    "status": "",
    "description": "This certification program introduces learners to the fundamentals of AI and prompt engineering. Through theory and hands-on projects, participants gain the skills to create and apply prompts across various domains.",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "This program is suitable for individuals from diverse backgrounds and levels of expertise who want to gain a comprehensive understanding of AI and prompt engineering. It is ideal for AI developers, data scientists, educators, and anyone interested in harnessing the full potential of AI models through effective prompting.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "153222",
@@ -1091,8 +1280,13 @@
    "link": "https://www.itce.com/courses-catalogue/create-agents-in-microsoft-copilot-studio/",
    "start": "2027-03-19",
    "end": "2027-03-19",
-   "time": "",
-   "days": [],
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-03-19",
+     "time": "09:00-17:00"
+    }
+   ],
    "durationDays": 1,
    "type": "Course",
    "language": "English",
@@ -1101,10 +1295,12 @@
    "status": "",
    "description": "Learn how to build and extend AI-powered agents with Microsoft Copilot Studio to automate tasks, connect business data, and improve user experiences.",
    "price": 385,
-   "category": "Microsoft Copilot Studio",
-   "certification": "No",
-   "role": "Developer, Power Platform Developer, Business Analyst, Solution Architect, Consultant, AI Agent Creator, Microsoft 365 Administrator, Professional",
-   "instructor": "Lyubomir Stefanov"
+   "priceNote": "",
+   "audience": "The course is intended for learners who want to create custom copilots with Copilot Studio. Familiarity with data modeling concepts in Microsoft Dataverse and with Copilot Studio is recommended. No deep technical expertise is required — the path is also suitable for low-code developers.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "154420",
@@ -1128,10 +1324,9 @@
    "status": "",
    "description": "",
    "price": null,
-   "category": "Technical",
-   "certification": "No",
-   "role": "Data Analyst; Data Engineer",
-   "instructor": "Rozalina Zaharieva"
+   "priceNote": "",
+   "audience": "",
+   "categories": []
   },
   {
    "id": "154023",
@@ -1163,10 +1358,11 @@
    "status": "",
    "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
-   "instructor": "Angel Georgiev"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "Anyone working in IT will benefit from attending this foundation-level course.\nITIL® 5 Foundation introduces the shared language, core concepts, and unified lifecycle for managing digital products and services. It establishes a foundational understanding of value creation, collaboration, governance, and continual improvement.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "153984",
@@ -1206,10 +1402,12 @@
    "status": "",
    "description": "During this three-day course, attendees gain an in-depth understanding of how to effectively perform their role in the Agile Release Train (ART) as it delivers value through Program Increments.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Product Owners, Product Managers, Business Analysts",
-   "instructor": "Emanuil Mavrodiev"
+   "priceNote": "",
+   "audience": "This course is suitable for professionals of the following roles:\nProduct Managers, Product Line Managers, Product Owners, Business Owners, and Business Analysts\nSolution Managers, Portfolio Managers, Program Managers, PMO personnel, and Process Leads\nEnterprise, Solution, and System Architects",
+   "categories": [
+    "Agile",
+    "Product Management"
+   ]
   },
   {
    "id": "154130",
@@ -1233,10 +1431,12 @@
    "status": "",
    "description": "Learn how to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Teams, Outlook, and Copilot Chat to create content, analyze data, and work more efficiently.",
    "price": 145,
-   "category": "Microsoft Copilot",
-   "certification": "No",
-   "role": "Business User, Microsoft 365 User, Manager, Team Lead, Project Manager, Business Analyst, Professional",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "The course is designed for business users with a basic understanding of Microsoft 365 who want to deepen their skills in drafting, analyzing, and presenting data using Microsoft 365 Copilot. It is suitable for individuals seeking to streamline workflows, improve collaboration, and make data-driven decisions.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "154005",
@@ -1272,10 +1472,11 @@
    "status": "",
    "description": "Master your Business Analysis skills and receive solid preparation for the PMI-PBA® certification exam.\n\nThe training comprises 4 days of instructor-led sessions and 1 day of exam self-prep.",
    "price": 980,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Business Analysts, Project Managers, QA Specialists, IT Professionals.",
-   "instructor": ""
+   "priceNote": "",
+   "audience": "All who wish to pass the PMI-PBA® certification exam and become a PMI® Professional in Business Analysis (PMI-PBA®) are welcome to attend the training. The course is especially beneficial to Project Managers, Business Analysts Developers, QA Specialists and IT Professionals.",
+   "categories": [
+    "Business Analysis"
+   ]
   },
   {
    "id": "154191",
@@ -1307,10 +1508,11 @@
    "status": "",
    "description": "This course will discuss the various methods and best practices that are in line with business and technical requirements for modeling, visualizing, and analyzing data with Power BI.",
    "price": 965,
-   "category": "Technical",
-   "certification": "Yes",
-   "role": "Data professionals, business intelligence specialists, and report developers working with cloud and on-premises data platforms",
-   "instructor": "Lyubomir Stefanov"
+   "priceNote": "Тhe price includes a certification exam and and MeasureUp practice tests.",
+   "audience": "The audience for this course are data professionals and business intelligence professionals who want to learn how to accurately perform data analysis using Power BI. This course is also targeted toward those individuals who develop reports that visualize data from the data platform technologies that exist on both in the cloud and on-premises.",
+   "categories": [
+    "Microsoft"
+   ]
   },
   {
    "id": "153978",
@@ -1350,10 +1552,11 @@
    "status": "",
    "description": "This course prepares current Scrum Masters for their leadership role in facilitating Agile team, program, and enterprise success in a Scaled Agile Framework (SAFe®) implementation.",
    "price": 1080,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "Senior Scrum Masters, Agile Coaches, and Agile Team Facilitators in a SAFe or enterprise Agile context.",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "This course is suitable for professionals of the following roles:\nExisting Scrum Masters\nTeam leaders, project managers, and others assuming the role of an Agile Team facilitator in a SAFe or enterprise Agile context\nEngineering and development managers responsible for Agile execution and coaching teams, including teams of teams",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "154148",
@@ -1377,10 +1580,11 @@
    "status": "",
    "description": "The AI+ for Product Managers certification provides a comprehensive introduction to artificial intelligence specifically for product management professionals.",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "Project and product managers aiming to leverage AI technologies in product development and innovation.",
-   "instructor": "Emanuil Mavrodiev"
+   "priceNote": "",
+   "audience": "This program is suitable for individuals from diverse backgrounds and levels of expertise This course is designed for current and aspiring product managers who want to integrate AI into their product development processes. It is suitable for individuals with a basic understanding of digital technologies and a keen interest in AI.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "154027",
@@ -1408,10 +1612,11 @@
    "status": "",
    "description": "ITIL® Product (Version 5) helps professionals manage digital products and services across the full lifecycle, from discovery and design to delivery, operation, and continual improvement. The course provides practical guidance for aligning business goals, customer needs, and operational capabilities in modern digital environments.",
    "price": 1190,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
-   "instructor": "Emil Hristov"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "154001",
@@ -1443,10 +1648,11 @@
    "status": "",
    "description": "By blending concepts and practices of Project Management with the active learning approaches, this foundation level course will introduce you to the key project management concepts.",
    "price": 750,
-   "category": "Management",
-   "certification": "No",
-   "role": "Project managers, coordinators, team leaders, business users and analysts seeking foundational PM skills.",
-   "instructor": ""
+   "priceNote": "",
+   "audience": "Anyone who is involved in, or affected by, projects or change management within an organization. These could be (but are not limited to): project managers, IT project managers, project coordinators, team leaders, product managers, program managers, project team members, subject matter experts, analysts, stakeholders, and senior managers who want to get more out of their project teams.",
+   "categories": [
+    "Project Management"
+   ]
   },
   {
    "id": "154145",
@@ -1471,10 +1677,11 @@
    "description": "In this comprehensive training you will learn how to build and use AI agents for real business tasks, using practical tools and hands-on experience.",
    "source": "bg",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "AI+ Agent™ is ideal for business professionals, tech and IT practitioners, and data enthusiasts looking to apply AI in their work, as well as innovation leaders driving digital transformation. It is also a great fit for individuals transitioning into AI roles who need practical, hands-on expertise.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "154035",
@@ -1498,10 +1705,11 @@
    "status": "",
    "description": "ITIL® AI Governance (Version 5) provides practical guidance for adopting and scaling AI responsibly by strengthening oversight, accountability, risk management, compliance, and trust.",
    "price": 610,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "",
-   "instructor": "Angel Georgiev"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "154426",
@@ -1525,10 +1733,9 @@
    "status": "",
    "description": "",
    "price": null,
-   "category": "Technical",
-   "certification": "No",
-   "role": "Data Analyst; Data Engineer",
-   "instructor": "Rozalina Zaharieva"
+   "priceNote": "",
+   "audience": "",
+   "categories": []
   },
   {
    "id": "154126",
@@ -1556,32 +1763,9 @@
    "status": "Full",
    "description": "",
    "price": null,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Strategy Manager, Digital Transformation Manager, Portfolio Manager, Digital Product Manager, Service Manager, Practice Owner, Solution Designer, Business and IT Consultant, Enterprise or Business Architect, IT Director, C-suite roles",
-   "instructor": "Anton Genchev"
-  },
-  {
-   "id": "153972",
-   "code": "SA105",
-   "title": "AI-Empowered SAFe® for Teams",
-   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
-   "start": "2027-04-19",
-   "end": "2027-04-23",
-   "time": "",
-   "days": [],
-   "durationDays": 5,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "Half day",
-   "status": "",
-   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
-   "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "",
+   "categories": []
   },
   {
    "id": "154134",
@@ -1605,10 +1789,12 @@
    "status": "",
    "description": "Learn how to build AI agents and extend Microsoft 365 Copilot by exploring Microsoft’s agent ecosystem, development tools, and extensibility options.",
    "price": 145,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "No",
-   "role": "Business User, Developer, Business Analyst, Solution Architect, IT Professional, Consultant, AI Enthusiast, Professional",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "The course is designed for developers and App Makers interested in building AI agents and extending Microsoft 365 Copilot. It is ideal for learners who want to deepen their understanding of Microsoft’s agent development options and plan to use low-code or pro-code agent development tools.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "154039",
@@ -1648,10 +1834,11 @@
    "status": "",
    "description": "The course focuses on primary Windows PowerShell command-line features and techniques, and will provide pre-requisite skills supporting a broad range of Microsoft products, including Windows Server, Windows Client, Exchange Server, SharePoint Server, SQL Server, System Center, and more.",
    "price": 1550,
-   "category": "Technical",
-   "certification": "Yes",
-   "role": "Windows Server administrators, IT professionals, support specialists, and server administrators focused on automation and infrastructure management.",
-   "instructor": "Valeri Frunze"
+   "priceNote": "Тhe price includes a certification exam and and MeasureUp practice tests.",
+   "audience": "The course and examination are especially suitable for:\nWindows Server administrators\nIT Professionals\nSupport specialists\nServer Administrators\nOperations\nInfrastructure Support",
+   "categories": [
+    "Microsoft"
+   ]
   },
   {
    "id": "153988",
@@ -1691,10 +1878,11 @@
    "status": "",
    "description": "Unique to SAFe®, the Release Train Engineer (RTE) is part of the trio of leaders that includes product managers and system architects. This plays a critical role in leading Agile Release Trains (ARTs) to deliver value.",
    "price": 1725,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Release Train Engineers, Scrum Masters, Program Managers, and Lean-Agile Coaches seeking to enhance leadership and facilitation skills in a SAFe environment.",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "This course is suitable for professionals of the following roles:\nScrum Masters\nLean-Agile coaches\nProgram and Project Managers",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "154146",
@@ -1718,10 +1906,11 @@
    "status": "",
    "description": "Learn how to build AI systems that understand context, deliver accurate results, and adapt to real-world scenarios using practical tools and techniques.",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "This course is ideal for AI professionals, developers, and data specialists looking to build more reliable and scalable AI systems, as well as business and technical leaders who want to design context-aware AI solutions for real-world applications. It is also valuable for anyone involved in AI implementation, automation, or digital transformation initiatives.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "154138",
@@ -1745,10 +1934,12 @@
    "status": "",
    "description": "Learn how to create and use AI-powered agents in Microsoft 365 Copilot Chat and SharePoint to automate tasks, streamline workflows, and improve productivity.",
    "price": 145,
-   "category": "Microsoft Copilot",
-   "certification": "No",
-   "role": "Business User, Microsoft 365 User, Team Lead, Manager, Project Manager, Administrator, Professional",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "The course targets everyday Microsoft 365 business users. No programming experience is required to create Microsoft 365 Copilot Chat agents and SharePoint agents.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "154031",
@@ -1776,10 +1967,11 @@
    "status": "",
    "description": "This course helps professionals manage digital services across the full service lifecycle, from strategy and design to delivery, support, and improvement. It provides practical guidance for aligning IT services with business goals, customer expectations, and operational performance in modern digital environments.",
    "price": 1190,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation",
-   "instructor": "Emil Hristov"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "153986",
@@ -1819,10 +2011,12 @@
    "status": "",
    "description": "During this three-day course, attendees gain an in-depth understanding of how to effectively perform their role in the Agile Release Train (ART) as it delivers value through Program Increments.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Product Owners, Product Managers, Business Analysts",
-   "instructor": "Emanuil Mavrodiev"
+   "priceNote": "",
+   "audience": "This course is suitable for professionals of the following roles:\nProduct Managers, Product Line Managers, Product Owners, Business Owners, and Business Analysts\nSolution Managers, Portfolio Managers, Program Managers, PMO personnel, and Process Leads\nEnterprise, Solution, and System Architects",
+   "categories": [
+    "Agile",
+    "Product Management"
+   ]
   },
   {
    "id": "154019",
@@ -1850,10 +2044,11 @@
    "status": "",
    "description": "These workshop topics are designed for stakeholders responsible for aligning enterprise architecture with the ServiceNow platform.",
    "price": 750,
-   "category": "ServiceNow Practitioner",
-   "certification": "No",
-   "role": "Product Manager, Product Owner, Process Owner, Enterprise Architect, Solution Architect, ServiceNow Business Consultant , ServiceNow Technical Consultant , Configuration Manager, CMDB Manager, CMDB Administrator, Platform Owner, Platform Architect",
-   "instructor": "Martin Iozev"
+   "priceNote": "",
+   "audience": "Product Manager\nProduct Owner\nProcess Owner\nEnterprise Architect\nSolution Architect\nServiceNow Business Consultant\nServiceNow Technical Consultant\nConfiguration Manager\nCMDB Manager\nCMDB Administrator\nPlatform Owner\nPlatform Architect",
+   "categories": [
+    "ServiceNow Practitioner"
+   ]
   },
   {
    "id": "154140",
@@ -1877,10 +2072,12 @@
    "status": "",
    "description": "Learn how to extend Microsoft 365 Copilot with custom agents, knowledge sources, and actions using Microsoft Copilot Studio.",
    "price": 145,
-   "category": "Microsoft Copilot Studio",
-   "certification": "No",
-   "role": "Power Platform Developer, Developer, Solution Architect, Business Analyst, Microsoft 365 Administrator, Consultant, AI Agent Creator, Professional",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "The course targets developers and App Makers interested in using Copilot Studio to build agents that improve individual and team productivity. Learners should be familiar with Microsoft 365 Copilot.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
   },
   {
    "id": "154152",
@@ -1904,10 +2101,11 @@
    "status": "",
    "description": "Learn how to use AI to improve sales performance, automate routine tasks, enhance customer engagement, and make smarter sales decisions. This course provides practical knowledge of AI tools and techniques that help sales teams work more efficiently and achieve better results.",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "This course is designed for sales professionals, business development teams, account managers, sales leaders, and anyone looking to use AI to improve sales performance, customer engagement, and decision-making. It is also suitable for marketing professionals, consultants, entrepreneurs, and business leaders interested in applying AI to modern sales processes.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "154428",
@@ -1931,10 +2129,9 @@
    "status": "",
    "description": "",
    "price": null,
-   "category": "Technical",
-   "certification": "No",
-   "role": "Database Administrator; Data Engineer; Administrator; Developer; Solution Architect",
-   "instructor": "Rozalina Zaharieva"
+   "priceNote": "",
+   "audience": "",
+   "categories": []
   },
   {
    "id": "154003",
@@ -1974,10 +2171,11 @@
    "status": "",
    "description": "Receive solid preparation for the PMP® exam by having a focused walk-through of the exam content and completing lots of practice tests joined by valuable group discussions.",
    "price": 1150,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Aspiring PMP® candidates, project managers, and professionals seeking to enhance project management skills and achieve PMI certification.",
-   "instructor": ""
+   "priceNote": "",
+   "audience": "Anyone who is preparing for the PMP® exam. You can be at any stage of the preparation process. The best results are achieved if you have already started your preparation and plan to take the exam within 3 months of completing the training.",
+   "categories": [
+    "Project Management"
+   ]
   },
   {
    "id": "154181",
@@ -2017,10 +2215,11 @@
    "status": "",
    "description": "During this course, you’ll learn the principles and practices of the Scaled Agile Framework® (SAFe) and what it means to lead a Lean-Agile transformation at enterprise scale.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Executives, Managers, and Transformation Ambassadors in departments like Finance, Vendor Management, and Procurement.",
-   "instructor": "Zahari Barbov"
+   "priceNote": "",
+   "audience": "Leading SAFe is a course aimed at Executives, Leaders, and Managers who will be leading the Agile transformation.",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "153982",
@@ -2060,10 +2259,11 @@
    "status": "",
    "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Scrum Masters, Agile Coaches, and Agile Team Facilitators in a SAFe or enterprise Agile context.",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "The following individuals will benefit from this course:\nExisting Scrum Masters\nTeam leaders, project managers, and others assuming the role of an Agile Team facilitator in a SAFe or enterprise Agile context\nEngineering and development managers responsible for Agile execution and coaching teams, including teams of teams\nAgile coaches\nAgile Program Managers\nProspective SAFe Release Train Engineers",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "153992",
@@ -2072,8 +2272,29 @@
    "link": "https://www.itce.com/courses-catalogue/lean-portfolio-management/",
    "start": "2027-06-14",
    "end": "2027-06-18",
-   "time": "",
-   "days": [],
+   "time": "13:00-18:00",
+   "days": [
+    {
+     "date": "2027-06-14",
+     "time": "13:00-18:00"
+    },
+    {
+     "date": "2027-06-15",
+     "time": "13:00-18:00"
+    },
+    {
+     "date": "2027-06-16",
+     "time": "13:00-18:00"
+    },
+    {
+     "date": "2027-06-17",
+     "time": "13:00-18:00"
+    },
+    {
+     "date": "2027-06-18",
+     "time": "13:00-18:00"
+    }
+   ],
    "durationDays": 5,
    "type": "Course",
    "language": "English",
@@ -2082,10 +2303,12 @@
    "status": "",
    "description": "Gain the practical tools and techniques necessary to implement the Lean Portfolio Management functions of Strategy and Investment Funding, Agile Portfolio Operations and Lean Governance.",
    "price": 1725,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Portfolio Managers, PMO Managers, Program Managers, Business Leaders, Product Managers",
-   "instructor": "Nina Prodanova"
+   "priceNote": "",
+   "audience": "This course is suitable for professionals of the following roles:\nCEO, CTO or Director\nProgram, Project or Portfolio Manager\nRelease Train Engineer, Agile Coach or SAFe Program Consultant",
+   "categories": [
+    "Agile",
+    "Lean"
+   ]
   },
   {
    "id": "154150",
@@ -2109,10 +2332,11 @@
    "status": "",
    "description": "Learn how to use AI to create more effective marketing campaigns, personalize customer experiences, and improve marketing performance.",
    "price": 385,
-   "category": "Artificial Intelligence (AI)",
-   "certification": "Yes",
-   "role": "All business users and roles and professionals seeking to optimize AI model interactions and applications.",
-   "instructor": "Angel Georgiev"
+   "priceNote": "",
+   "audience": "This course is designed for marketing professionals, digital marketers, CRM specialists, business leaders, and anyone looking to use AI to improve marketing performance, customer engagement, and campaign effectiveness. It is also suitable for consultants, entrepreneurs, and professionals interested in applying AI to modern marketing strategies.",
+   "categories": [
+    "Artificial Intelligence (AI)"
+   ]
   },
   {
    "id": "154033",
@@ -2140,10 +2364,11 @@
    "status": "",
    "description": "This course helps professionals design and manage digital experiences that build trust, engagement, and value across the full service lifecycle. It provides practical guidance for applying human-centred and AI-aware approaches in modern digital environments.",
    "price": 1190,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT professionals, service managers, consultants, and individuals involved in IT service delivery or digital transformation.",
-   "instructor": ""
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "154009",
@@ -2183,10 +2408,11 @@
    "status": "",
    "description": "The PRINCE2 7th Edition Foundation and Practitioner training is an intensive course aimed at preparing project management professionals to successfully sit for both of the certification levels.",
    "price": 1959,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Project Managers, Program Managers, Team Leaders",
-   "instructor": "Anton Genchev"
+   "priceNote": "Please, note that the price includes the certification exams and e-books.",
+   "audience": "Any professional who has experience in project management, who is involved in, or affected by, projects or change management within an organization. These could be (but are not limited to): project managers, IT project managers, project coordinators, team leaders, product managers, program managers, project team members, subject matter experts, analysts, stakeholders, and senior managers who want to get more out of their project teams.",
+   "categories": [
+    "Project Management"
+   ]
   },
   {
    "id": "154017",
@@ -2214,10 +2440,11 @@
    "status": "",
    "description": "Learn lifecycles and Value of ITSM Applications, from Viewpoint of Stakeholders and Daily Users",
    "price": 1380,
-   "category": "Technical",
-   "certification": "Yes",
-   "role": "Customers, partners, and ServiceNow employees who will be administering ServiceNow and working on a ServiceNow implementation of ITSM applications",
-   "instructor": ""
+   "priceNote": "",
+   "audience": "This IT Service Management (ITSM) Fundamentals course is designed for customers, partners, and ServiceNow employees who will be administering ServiceNow and working on a ServiceNow implementation of ITSM applications and need to understand the lifecycle and inter-dependencies of ServiceNow ITSM applications from a persona perspective.",
+   "categories": [
+    "ServiceNow Technical"
+   ]
   },
   {
    "id": "153990",
@@ -2253,10 +2480,13 @@
    "status": "",
    "description": "Get ready to lead your next Agile project and prepare for the Project Management Institute Agile Certified Practitioner (PMI-ACP)® certification exam. The training is a blend of instructor-led sessions and group & individual exercises based on project case studies, that will open the doors for the Agile way of thinking and the Agile way of working for you and your organization!",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Product managers, project managers, Scrum Masters, developers, business analysts, and teams transitioning to Agile methodologies or seeking to deepen their Agile expertise.",
-   "instructor": "Svetoslav Iliev"
+   "priceNote": "",
+   "audience": "",
+   "categories": [
+    "Agile",
+    "DevOps",
+    "Project Management"
+   ]
   },
   {
    "id": "154136",
@@ -2288,10 +2518,11 @@
    "status": "",
    "description": "ITIL® Transformation (Version 5) provides practical guidance for leading organizational change, balancing governance and execution, and delivering measurable value in complex, AI-driven environments.",
    "price": 1540,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Digital Transformation Manager, Change Manager, Service Improvement Manager, Practice Owner, Digital Product Manager, Experience Manager, Solution Designer, Strategy Analyst, IT Director, Business and Transformation Consultant, C-suite roles",
-   "instructor": "Anton Genchev"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "This course is suitable for transformation leaders, change managers, IT and service managers, digital product managers, consultants, team leaders, and professionals involved in planning, leading, or supporting organizational transformation.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "154029",
@@ -2331,10 +2562,11 @@
    "status": "",
    "description": "Upgrade to ITIL® Managing Professional (Version 5) through a single, streamlined transition course focused exclusively on the latest updates across Product, Service, Experience, and Transformation management.",
    "price": 2090,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Available for ITIL 4 Managing Professionals, ITIL 4 Masters, ITIL v3 Experts, and ITIL v3 Masters only.",
-   "instructor": "Anton Genchev"
+   "priceNote": "The price includes 2 certification exams and an e-book.",
+   "audience": "This course is designed for professionals who already hold ITIL 4 or ITIL v3 advanced certifications and want an efficient route to achieving ITIL Managing Professional (Version 5).",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "154037",
@@ -2366,10 +2598,11 @@
    "status": "",
    "description": "The ITIL 4 Specialist: Monitor, Support and Fulfil combined practice module is for IT professionals aiming to establish a good cross-practice collaboration and effective service value streams.",
    "price": 1540,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "IT Operations Managers, Service Desk Managers, Problem Managers, and ITSM Practitioners.",
-   "instructor": "Martin Iozev"
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "This course is aimed at IT professionals taking the ITIL 4 Monitor, Support and Fulfil Practices qualification, including Configuration Managers, Availability Managers, Applications Support Managers, IT Operations Managers, Network Control and Operations, Database Administrators, Problem Managers, Network Support or a Service Desk Managers.",
+   "categories": [
+    "ITIL"
+   ]
   },
   {
    "id": "154011",
@@ -2405,10 +2638,11 @@
    "status": "",
    "description": "Master your Business Analysis skills and receive solid preparation for the PMI-PBA® certification exam.\n\nThe training comprises 4 days of instructor-led sessions and 1 day of exam self-prep.",
    "price": 980,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Business Analysts, Project Managers, QA Specialists, IT Professionals.",
-   "instructor": ""
+   "priceNote": "",
+   "audience": "All who wish to pass the PMI-PBA® certification exam and become a PMI® Professional in Business Analysis (PMI-PBA®) are welcome to attend the training. The course is especially beneficial to Project Managers, Business Analysts Developers, QA Specialists and IT Professionals.",
+   "categories": [
+    "Business Analysis"
+   ]
   },
   {
    "id": "153994",
@@ -2448,10 +2682,11 @@
    "status": "",
    "description": "This course aims to present enterprise architecture concepts based on the newest TOGAF® 10 version in a practical way.",
    "price": 1080,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Business users, analysts, and individuals aiming to enhance productivity by automating workflows, analyzing data for insights, and creating simple app experiences.",
-   "instructor": "Nina Prodanova"
+   "priceNote": "",
+   "audience": "This training is suitable for professionals who require basic to advanced knowledge of TOGAF and those who participate in Architecture projects and initiatives as well as those who are into development of Architecture artefacts.",
+   "categories": [
+    "Architecture"
+   ]
   },
   {
    "id": "154007",
@@ -2460,8 +2695,29 @@
    "link": "https://www.itce.com/courses-catalogue/project-management-professional-pmp-preparation-course/",
    "start": "2027-11-22",
    "end": "2027-11-26",
-   "time": "",
-   "days": [],
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-11-22",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-11-23",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-11-24",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-11-25",
+     "time": "09:00-17:00"
+    },
+    {
+     "date": "2027-11-26",
+     "time": "09:00-17:00"
+    }
+   ],
    "durationDays": 5,
    "type": "Course",
    "language": "Bulgarian",
@@ -2470,10 +2726,11 @@
    "status": "",
    "description": "Receive solid preparation for the PMP® exam by having a focused walk-through of the exam content and completing lots of practice tests joined by valuable group discussions.",
    "price": 1150,
-   "category": "Management",
-   "certification": "Yes",
-   "role": "Aspiring PMP® candidates, project managers, and professionals seeking to enhance project management skills and achieve PMI certification.",
-   "instructor": ""
+   "priceNote": "",
+   "audience": "Anyone who is preparing for the PMP® exam. You can be at any stage of the preparation process. The best results are achieved if you have already started your preparation and plan to take the exam within 3 months of completing the training.",
+   "categories": [
+    "Project Management"
+   ]
   }
  ]
 }
