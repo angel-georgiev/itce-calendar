@@ -1,148 +1,7 @@
 {
- "updated": "2026-10-29T10:52:41+00:00",
+ "updated": "2026-11-13T22:44:57+00:00",
  "source": "https://www.itce.com/training-schedule/",
  "sessions": [
-  {
-   "id": "153676",
-   "code": "I815",
-   "title": "ITIL® Managing Professional Transition (Version 5)",
-   "link": "https://www.itce.com/courses-catalogue/itil-managing-professional-transition-version-5/",
-   "start": "2026-11-02",
-   "end": "2026-11-06",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2026-11-02",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-11-03",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-11-04",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-11-05",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-11-06",
-     "time": "09:00-17:00"
-    }
-   ],
-   "durationDays": 5,
-   "type": "Course",
-   "language": "Bulgarian",
-   "method": "Virtual",
-   "format": "All day",
-   "status": "",
-   "description": "Upgrade to ITIL® Managing Professional (Version 5) through a single, streamlined transition course focused exclusively on the latest updates across Product, Service, Experience, and Transformation management.",
-   "price": 2090,
-   "priceNote": "The price includes 2 certification exams and an e-book.",
-   "audience": "This course is designed for professionals who already hold ITIL 4 or ITIL v3 advanced certifications and want an efficient route to achieving ITIL Managing Professional (Version 5).",
-   "categories": [
-    "ITIL"
-   ]
-  },
-  {
-   "id": "153397",
-   "code": "SA101",
-   "title": "AI-Empowered Leading SAFe® 6.0",
-   "link": "https://www.itce.com/courses-catalogue/leading-safe/",
-   "start": "2026-11-02",
-   "end": "2026-11-06",
-   "time": "13:00-18:00",
-   "days": [
-    {
-     "date": "2026-11-02",
-     "time": "13:00-18:00"
-    },
-    {
-     "date": "2026-11-03",
-     "time": "13:00-18:00"
-    },
-    {
-     "date": "2026-11-05",
-     "time": "13:00-18:00"
-    },
-    {
-     "date": "2026-11-06",
-     "time": "13:00-18:00"
-    }
-   ],
-   "durationDays": 4,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "Half day",
-   "status": "",
-   "description": "During this course, you’ll learn the principles and practices of the Scaled Agile Framework® (SAFe) and what it means to lead a Lean-Agile transformation at enterprise scale.",
-   "price": 1080,
-   "priceNote": "",
-   "audience": "Leading SAFe is a course aimed at Executives, Leaders, and Managers who will be leading the Agile transformation.",
-   "categories": [
-    "Agile"
-   ]
-  },
-  {
-   "id": "151372",
-   "code": "AIC-108",
-   "title": "AI+ Context Engineering™",
-   "link": "https://www.itce.com/courses-catalogue/ai-context-engineering/",
-   "start": "2026-11-06",
-   "end": "2026-11-06",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2026-11-06",
-     "time": "09:00-17:00"
-    }
-   ],
-   "durationDays": 1,
-   "type": "Course",
-   "language": "Bulgarian",
-   "method": "Virtual",
-   "format": "All day",
-   "status": "New",
-   "description": "Learn how to build AI systems that understand context, deliver accurate results, and adapt to real-world scenarios using practical tools and techniques.",
-   "price": 385,
-   "priceNote": "",
-   "audience": "This course is ideal for AI professionals, developers, and data specialists looking to build more reliable and scalable AI systems, as well as business and technical leaders who want to design context-aware AI solutions for real-world applications. It is also valuable for anyone involved in AI implementation, automation, or digital transformation initiatives.",
-   "categories": [
-    "Artificial Intelligence (AI)"
-   ]
-  },
-  {
-   "id": "153216",
-   "code": "AI-3025",
-   "title": "Work smarter with AI",
-   "link": "https://www.itce.com/courses-catalogue/work-smarter-with-ai/",
-   "start": "2026-11-13",
-   "end": "2026-11-13",
-   "time": "10:00-13:00",
-   "days": [
-    {
-     "date": "2026-11-13",
-     "time": "10:00-13:00"
-    }
-   ],
-   "durationDays": 1,
-   "type": "Sequence",
-   "language": "English",
-   "method": "Virtual",
-   "format": "3-hour",
-   "status": "",
-   "description": "Discover how Microsoft Copilot can help you work more efficiently and get more done. Learn the fundamentals of generative AI, explore Copilot’s capabilities, and develop effective prompting skills to research information, create content, and enhance productivity in everyday work.",
-   "price": 145,
-   "priceNote": "",
-   "audience": "This course is ideal for anyone new to Microsoft Copilot or generative AI – students, professionals across all business functions, and anyone curious about AI. No technical background is required, though basic computer literacy and familiarity with Microsoft 365 applications is recommended.",
-   "categories": [
-    "Artificial Intelligence (AI)",
-    "Microsoft"
-   ]
-  },
   {
    "id": "145229",
    "code": "SA105",
@@ -348,6 +207,27 @@
    ]
   },
   {
+   "id": "158446",
+   "code": "SP-100",
+   "title": "Self-paced learning – Microsoft",
+   "link": "",
+   "start": "2026-11-30",
+   "end": "2026-11-30",
+   "time": "",
+   "days": [],
+   "durationDays": 1,
+   "type": "Academies",
+   "language": "English",
+   "method": "Self-paced Learning",
+   "format": "",
+   "status": "Full",
+   "description": "",
+   "price": null,
+   "priceNote": "",
+   "audience": "",
+   "categories": []
+  },
+  {
    "id": "145761",
    "code": "AZ-104",
    "title": "Microsoft Azure Administrator",
@@ -388,32 +268,6 @@
    ]
   },
   {
-   "id": "154422",
-   "code": "DP-900",
-   "title": "Introduction to Microsoft Azure Data",
-   "link": "",
-   "start": "2026-12-07",
-   "end": "2026-12-07",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2026-12-07",
-     "time": "09:00-17:00"
-    }
-   ],
-   "durationDays": 1,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "All day",
-   "status": "",
-   "description": "",
-   "price": null,
-   "priceNote": "",
-   "audience": "",
-   "categories": []
-  },
-  {
    "id": "148124",
    "code": "SA104",
    "title": "SAFe® DevOps (SDP)",
@@ -452,50 +306,6 @@
    "categories": [
     "Agile",
     "DevOps"
-   ]
-  },
-  {
-   "id": "155876",
-   "code": "SA105",
-   "title": "AI-Empowered SAFe® for Teams",
-   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
-   "start": "2026-12-07",
-   "end": "2026-12-11",
-   "time": "09:00-13:00",
-   "days": [
-    {
-     "date": "2026-12-07",
-     "time": "09:00-13:00"
-    },
-    {
-     "date": "2026-12-08",
-     "time": "09:00-13:00"
-    },
-    {
-     "date": "2026-12-09",
-     "time": "09:00-13:00"
-    },
-    {
-     "date": "2026-12-10",
-     "time": "09:00-13:00"
-    },
-    {
-     "date": "2026-12-11",
-     "time": "09:00-13:00"
-    }
-   ],
-   "durationDays": 5,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "Half day",
-   "status": "",
-   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
-   "price": 1080,
-   "priceNote": "",
-   "audience": "This course is aimed at all team members who apply Lean and Agile at scale and all members of an Agile Release Train preparing for launch.",
-   "categories": [
-    "Agile"
    ]
   },
   {
@@ -561,6 +371,34 @@
    "categories": [
     "Artificial Intelligence (AI)",
     "Microsoft"
+   ]
+  },
+  {
+   "id": "158727",
+   "code": "AIC-102",
+   "title": "AI+ Prompting Fundamentals™",
+   "link": "https://www.itce.com/courses-catalogue/ai-prompting-fundamentals/",
+   "start": "2026-12-14",
+   "end": "2026-12-14",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2026-12-14",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "Bulgarian",
+   "method": "Virtual",
+   "format": "",
+   "status": "",
+   "description": "This certification program introduces learners to the fundamentals of AI and prompt engineering. Through theory and hands-on projects, participants gain the skills to create and apply prompts across various domains.",
+   "price": 385,
+   "priceNote": "",
+   "audience": "This program is suitable for individuals from diverse backgrounds and levels of expertise who want to gain a comprehensive understanding of AI and prompt engineering. It is ideal for AI developers, data scientists, educators, and anyone interested in harnessing the full potential of AI models through effective prompting.",
+   "categories": [
+    "Artificial Intelligence (AI)"
    ]
   },
   {
@@ -789,6 +627,34 @@
    "categories": [
     "Artificial Intelligence (AI)",
     "Microsoft"
+   ]
+  },
+  {
+   "id": "159178",
+   "code": "I817",
+   "title": "ITIL® AI Governance (Version 5)",
+   "link": "https://www.itce.com/courses-catalogue/itil-ai-governance-version-5/",
+   "start": "2027-02-08",
+   "end": "2027-02-08",
+   "time": "09:00-17:00",
+   "days": [
+    {
+     "date": "2027-02-08",
+     "time": "09:00-17:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "All day",
+   "status": "",
+   "description": "ITIL® AI Governance (Version 5) provides practical guidance for adopting and scaling AI responsibly by strengthening oversight, accountability, risk management, compliance, and trust.",
+   "price": 610,
+   "priceNote": "The price includes a certification exam and an e-book.",
+   "audience": "",
+   "categories": [
+    "ITIL"
    ]
   },
   {
@@ -1118,7 +984,7 @@
    "language": "English",
    "method": "Virtual",
    "format": "3-hour",
-   "status": "Full",
+   "status": "",
    "description": "Discover how Microsoft Copilot can help you work more efficiently and get more done. Learn the fundamentals of generative AI, explore Copilot’s capabilities, and develop effective prompting skills to research information, create content, and enhance productivity in everyday work.",
    "price": 145,
    "priceNote": "",
@@ -1673,7 +1539,7 @@
    "language": "English",
    "method": "Virtual",
    "format": "All day",
-   "status": "Full",
+   "status": "",
    "description": "In this comprehensive training you will learn how to build and use AI agents for real business tasks, using practical tools and hands-on experience.",
    "source": "bg",
    "price": 385,
@@ -1760,7 +1626,7 @@
    "language": "English",
    "method": "Virtual",
    "format": "All day",
-   "status": "Full",
+   "status": "",
    "description": "",
    "price": null,
    "priceNote": "",
@@ -1887,7 +1753,7 @@
   {
    "id": "154146",
    "code": "AIC-108",
-   "title": "AI+ Context Engineering™",
+   "title": "AI+ Context Engineering Practitioner™",
    "link": "https://www.itce.com/courses-catalogue/ai-context-engineering/",
    "start": "2027-05-13",
    "end": "2027-05-13",
