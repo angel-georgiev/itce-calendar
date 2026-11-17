@@ -1,51 +1,7 @@
 {
- "updated": "2026-11-13T22:44:57+00:00",
+ "updated": "2026-11-17T15:09:27+00:00",
  "source": "https://www.itce.com/training-schedule/",
  "sessions": [
-  {
-   "id": "145229",
-   "code": "SA105",
-   "title": "AI-Empowered SAFe® for Teams",
-   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
-   "start": "2026-11-16",
-   "end": "2026-11-20",
-   "time": "10:00-14:00",
-   "days": [
-    {
-     "date": "2026-11-16",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-11-17",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-11-18",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-11-19",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-11-20",
-     "time": "10:00-14:00"
-    }
-   ],
-   "durationDays": 5,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "Half day",
-   "status": "Full",
-   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
-   "price": 1080,
-   "priceNote": "",
-   "audience": "This course is aimed at all team members who apply Lean and Agile at scale and all members of an Agile Release Train preparing for launch.",
-   "categories": [
-    "Agile"
-   ]
-  },
   {
    "id": "153613",
    "code": "I801",
@@ -207,25 +163,44 @@
    ]
   },
   {
-   "id": "158446",
-   "code": "SP-100",
-   "title": "Self-paced learning – Microsoft",
-   "link": "",
+   "id": "145229",
+   "code": "SA105",
+   "title": "AI-Empowered SAFe® for Teams",
+   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
    "start": "2026-11-30",
-   "end": "2026-11-30",
-   "time": "",
-   "days": [],
-   "durationDays": 1,
-   "type": "Academies",
+   "end": "2026-12-03",
+   "time": "10:00-14:00",
+   "days": [
+    {
+     "date": "2026-11-30",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-12-01",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-12-02",
+     "time": "10:00-14:00"
+    },
+    {
+     "date": "2026-12-03",
+     "time": "10:00-14:00"
+    }
+   ],
+   "durationDays": 4,
+   "type": "Course",
    "language": "English",
-   "method": "Self-paced Learning",
-   "format": "",
+   "method": "Virtual",
+   "format": "Half day",
    "status": "Full",
-   "description": "",
-   "price": null,
+   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
+   "price": 1080,
    "priceNote": "",
-   "audience": "",
-   "categories": []
+   "audience": "This course is aimed at all team members who apply Lean and Agile at scale and all members of an Agile Release Train preparing for launch.",
+   "categories": [
+    "Agile"
+   ]
   },
   {
    "id": "145761",
@@ -265,47 +240,6 @@
    "audience": "This course is for Azure Administrators. The Azure Administrator implements, manages, and monitors identity, governance, storage, compute, and virtual networks in a cloud environment. Azure Administrators provision, size, monitor, and adjust resources as appropriate.",
    "categories": [
     "Microsoft"
-   ]
-  },
-  {
-   "id": "148124",
-   "code": "SA104",
-   "title": "SAFe® DevOps (SDP)",
-   "link": "https://www.itce.com/courses-catalogue/safe-devops-sdp/",
-   "start": "2026-12-07",
-   "end": "2026-12-10",
-   "time": "13:00-17:00",
-   "days": [
-    {
-     "date": "2026-12-07",
-     "time": "13:00-17:00"
-    },
-    {
-     "date": "2026-12-08",
-     "time": "13:00-17:00"
-    },
-    {
-     "date": "2026-12-09",
-     "time": "13:00-17:00"
-    },
-    {
-     "date": "2026-12-10",
-     "time": "13:00-17:00"
-    }
-   ],
-   "durationDays": 4,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "All day",
-   "status": "",
-   "description": "",
-   "price": 1080,
-   "priceNote": "",
-   "audience": "Software Engineers, Development Managers, Release Managers, QA Leads, Infrastructure Architects, Scrum Masters, Product Owners",
-   "categories": [
-    "Agile",
-    "DevOps"
    ]
   },
   {
@@ -940,29 +874,6 @@
    "categories": [
     "Artificial Intelligence (AI)",
     "Microsoft"
-   ]
-  },
-  {
-   "id": "153972",
-   "code": "SA105",
-   "title": "AI-Empowered SAFe® for Teams",
-   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
-   "start": "2027-03-08",
-   "end": "2027-03-12",
-   "time": "",
-   "days": [],
-   "durationDays": 5,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "Half day",
-   "status": "",
-   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
-   "price": 1080,
-   "priceNote": "",
-   "audience": "This course is aimed at all team members who apply Lean and Agile at scale and all members of an Agile Release Train preparing for launch.",
-   "categories": [
-    "Agile"
    ]
   },
   {
