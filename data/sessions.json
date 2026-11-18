@@ -1,43 +1,7 @@
 {
- "updated": "2026-11-17T15:09:27+00:00",
+ "updated": "2026-11-18T15:58:27+00:00",
  "source": "https://www.itce.com/training-schedule/",
  "sessions": [
-  {
-   "id": "153613",
-   "code": "I801",
-   "title": "ITIL® Foundation (Version 5)",
-   "link": "https://www.itce.com/courses-catalogue/itil-5-foundation/",
-   "start": "2026-11-17",
-   "end": "2026-11-19",
-   "time": "09:00-17:00",
-   "days": [
-    {
-     "date": "2026-11-17",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-11-18",
-     "time": "09:00-17:00"
-    },
-    {
-     "date": "2026-11-19",
-     "time": "09:00-17:00"
-    }
-   ],
-   "durationDays": 3,
-   "type": "Course",
-   "language": "Bulgarian",
-   "method": "Virtual",
-   "format": "All day",
-   "status": "Full",
-   "description": "Get introduced to and certified for ITIL® 5 – The global best practice framework for everyone involved in digital products and services. This course is designed for anyone working in IT.",
-   "price": 1080,
-   "priceNote": "The price includes a certification exam and an e-book.",
-   "audience": "Anyone working in IT will benefit from attending this foundation-level course.\nITIL® 5 Foundation introduces the shared language, core concepts, and unified lifecycle for managing digital products and services. It establishes a foundational understanding of value creation, collaboration, governance, and continual improvement.",
-   "categories": [
-    "ITIL"
-   ]
-  },
   {
    "id": "153680",
    "code": "I801",
@@ -119,90 +83,6 @@
    ]
   },
   {
-   "id": "145416",
-   "code": "SA103",
-   "title": "SAFe® AI-Empowered Scrum Master",
-   "link": "https://www.itce.com/courses-catalogue/safe-ai-empowered-scrum-master/",
-   "start": "2026-11-30",
-   "end": "2026-12-04",
-   "time": "10:00-14:00",
-   "days": [
-    {
-     "date": "2026-11-30",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-12-01",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-12-02",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-12-03",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-12-04",
-     "time": "10:00-14:00"
-    }
-   ],
-   "durationDays": 5,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "Half day",
-   "status": "",
-   "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
-   "price": 1080,
-   "priceNote": "",
-   "audience": "The following individuals will benefit from this course:\nExisting Scrum Masters\nTeam leaders, project managers, and others assuming the role of an Agile Team facilitator in a SAFe or enterprise Agile context\nEngineering and development managers responsible for Agile execution and coaching teams, including teams of teams\nAgile coaches\nAgile Program Managers\nProspective SAFe Release Train Engineers",
-   "categories": [
-    "Agile"
-   ]
-  },
-  {
-   "id": "145229",
-   "code": "SA105",
-   "title": "AI-Empowered SAFe® for Teams",
-   "link": "https://www.itce.com/courses-catalogue/safe-for-teams/",
-   "start": "2026-11-30",
-   "end": "2026-12-03",
-   "time": "10:00-14:00",
-   "days": [
-    {
-     "date": "2026-11-30",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-12-01",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-12-02",
-     "time": "10:00-14:00"
-    },
-    {
-     "date": "2026-12-03",
-     "time": "10:00-14:00"
-    }
-   ],
-   "durationDays": 4,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "Half day",
-   "status": "Full",
-   "description": "This training aims to prepare team members, part of a Scaled Agile Framework (SAFe®) transformation, how to collaborate effectively with other teams in the program and to ensure the organizational success.",
-   "price": 1080,
-   "priceNote": "",
-   "audience": "This course is aimed at all team members who apply Lean and Agile at scale and all members of an Agile Release Train preparing for launch.",
-   "categories": [
-    "Agile"
-   ]
-  },
-  {
    "id": "145761",
    "code": "AZ-104",
    "title": "Microsoft Azure Administrator",
@@ -276,35 +156,6 @@
    "audience": "Anyone working in IT will benefit from attending this foundation-level course.\nITIL® 5 Foundation introduces the shared language, core concepts, and unified lifecycle for managing digital products and services. It establishes a foundational understanding of value creation, collaboration, governance, and continual improvement.",
    "categories": [
     "ITIL"
-   ]
-  },
-  {
-   "id": "153214",
-   "code": "MS-4018",
-   "title": "Draft, analyze, and present with Microsoft 365 Copilot",
-   "link": "https://www.itce.com/courses-catalogue/draft-analyze-and-present-with-microsoft-365-copilot/",
-   "start": "2026-12-11",
-   "end": "2026-12-11",
-   "time": "10:00-13:00",
-   "days": [
-    {
-     "date": "2026-12-11",
-     "time": "10:00-13:00"
-    }
-   ],
-   "durationDays": 1,
-   "type": "Sequence",
-   "language": "English",
-   "method": "Virtual",
-   "format": "3-hour",
-   "status": "Full",
-   "description": "Learn how to use Microsoft 365 Copilot across Word, Excel, PowerPoint, Teams, Outlook, and Copilot Chat to create content, analyze data, and work more efficiently.",
-   "price": 145,
-   "priceNote": "",
-   "audience": "The course is designed for business users with a basic understanding of Microsoft 365 who want to deepen their skills in drafting, analyzing, and presenting data using Microsoft 365 Copilot. It is suitable for individuals seeking to streamline workflows, improve collaboration, and make data-driven decisions.",
-   "categories": [
-    "Artificial Intelligence (AI)",
-    "Microsoft"
    ]
   },
   {
@@ -494,7 +345,7 @@
    ],
    "durationDays": 3,
    "type": "Course",
-   "language": "Bulgarian",
+   "language": "English",
    "method": "Virtual",
    "format": "All day",
    "status": "",
@@ -532,6 +383,50 @@
    "audience": "This program is suitable for individuals from diverse backgrounds and levels of expertise who want to gain a comprehensive understanding of AI and prompt engineering. It is ideal for AI developers, data scientists, educators, and anyone interested in harnessing the full potential of AI models through effective prompting.",
    "categories": [
     "Artificial Intelligence (AI)"
+   ]
+  },
+  {
+   "id": "153980",
+   "code": "SA103",
+   "title": "SAFe® AI-Empowered Scrum Master",
+   "link": "https://www.itce.com/courses-catalogue/safe-ai-empowered-scrum-master/",
+   "start": "2027-02-01",
+   "end": "2027-02-05",
+   "time": "09:00-13:00",
+   "days": [
+    {
+     "date": "2027-02-01",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-02-02",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-02-03",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-02-04",
+     "time": "09:00-13:00"
+    },
+    {
+     "date": "2027-02-05",
+     "time": "09:00-13:00"
+    }
+   ],
+   "durationDays": 5,
+   "type": "Course",
+   "language": "English",
+   "method": "Virtual",
+   "format": "Half day",
+   "status": "",
+   "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
+   "price": 1080,
+   "priceNote": "",
+   "audience": "The following individuals will benefit from this course:\nExisting Scrum Masters\nTeam leaders, project managers, and others assuming the role of an Agile Team facilitator in a SAFe or enterprise Agile context\nEngineering and development managers responsible for Agile execution and coaching teams, including teams of teams\nAgile coaches\nAgile Program Managers\nProspective SAFe Release Train Engineers",
+   "categories": [
+    "Agile"
    ]
   },
   {
@@ -589,50 +484,6 @@
    "audience": "",
    "categories": [
     "ITIL"
-   ]
-  },
-  {
-   "id": "153980",
-   "code": "SA103",
-   "title": "SAFe® AI-Empowered Scrum Master",
-   "link": "https://www.itce.com/courses-catalogue/safe-ai-empowered-scrum-master/",
-   "start": "2027-02-15",
-   "end": "2027-02-19",
-   "time": "09:00-13:00",
-   "days": [
-    {
-     "date": "2027-02-15",
-     "time": "09:00-13:00"
-    },
-    {
-     "date": "2027-02-16",
-     "time": "09:00-13:00"
-    },
-    {
-     "date": "2027-02-17",
-     "time": "09:00-13:00"
-    },
-    {
-     "date": "2027-02-18",
-     "time": "09:00-13:00"
-    },
-    {
-     "date": "2027-02-19",
-     "time": "09:00-13:00"
-    }
-   ],
-   "durationDays": 5,
-   "type": "Course",
-   "language": "English",
-   "method": "Virtual",
-   "format": "Half day",
-   "status": "",
-   "description": "In this course, you’ll gain an understanding of the role of Scrum Master in a SAFe enterprise.",
-   "price": 1080,
-   "priceNote": "",
-   "audience": "The following individuals will benefit from this course:\nExisting Scrum Masters\nTeam leaders, project managers, and others assuming the role of an Agile Team facilitator in a SAFe or enterprise Agile context\nEngineering and development managers responsible for Agile execution and coaching teams, including teams of teams\nAgile coaches\nAgile Program Managers\nProspective SAFe Release Train Engineers",
-   "categories": [
-    "Agile"
    ]
   },
   {
@@ -771,7 +622,7 @@
    ],
    "durationDays": 3,
    "type": "Course",
-   "language": "Bulgarian",
+   "language": "English",
    "method": "Virtual",
    "format": "All day",
    "status": "",
@@ -1051,6 +902,35 @@
    ]
   },
   {
+   "id": "159231",
+   "code": "MS-4023",
+   "title": "Transform Ideas into Action with Copilot Chat",
+   "link": "https://www.itce.com/courses-catalogue/transform-ideas-into-action-with-copilot-chat/",
+   "start": "2027-03-19",
+   "end": "2027-03-19",
+   "time": "10:00-13:00",
+   "days": [
+    {
+     "date": "2027-03-19",
+     "time": "10:00-13:00"
+    }
+   ],
+   "durationDays": 1,
+   "type": "Sequence",
+   "language": "English",
+   "method": "Virtual",
+   "format": "3-hour",
+   "status": "",
+   "description": "Learn how to use Microsoft 365 Copilot Chat to find information, create content, and complete everyday tasks more efficiently with AI.",
+   "price": 145,
+   "priceNote": "",
+   "audience": "The course is designed for business users and anyone interested in learning the basics of Microsoft 365 Copilot Chat to enhance their daily work and productivity. No prior technical knowledge is required.",
+   "categories": [
+    "Artificial Intelligence (AI)",
+    "Microsoft"
+   ]
+  },
+  {
    "id": "153222",
    "code": "PL-7008",
    "title": "Create agents in Microsoft Copilot Studio",
@@ -1129,7 +1009,7 @@
    ],
    "durationDays": 3,
    "type": "Course",
-   "language": "Bulgarian",
+   "language": "English",
    "method": "Virtual",
    "format": "All day",
    "status": "",

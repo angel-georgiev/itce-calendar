@@ -1,17 +1,21 @@
-# Sync report — 2026-11-17 15:09 UTC
+# Sync report — 2026-11-18 15:58 UTC
 
-72 sessions on itce.com (1 only on the Bulgarian schedule).
+69 sessions on itce.com (1 only on the Bulgarian schedule).
 
-## Added (0)
-- none
+## Added (1)
+- MS-4023 Transform Ideas into Action with Copilot Chat (2027-03-19 – 2027-03-19, English)
 
-## Removed (3)
-- SP-100 Self-paced learning – Microsoft (2026-11-30 – 2026-11-30, English)
-- SA104 SAFe® DevOps (SDP) (2026-12-07 – 2026-12-10, English)
-- SA105 AI-Empowered SAFe® for Teams (2027-03-08 – 2027-03-12, English)
+## Removed (4)
+- I801 ITIL® Foundation (Version 5) (2026-11-17 – 2026-11-19, Bulgarian)
+- SA103 SAFe® AI-Empowered Scrum Master (2026-11-30 – 2026-12-04, English)
+- SA105 AI-Empowered SAFe® for Teams (2026-11-30 – 2026-12-03, English)
+- MS-4018 Draft, analyze, and present with Microsoft 365 Copilot (2026-12-11 – 2026-12-11, English)
 
-## Changed (1)
-- SA105 2026-11-30: start: '2026-11-16' → '2026-11-30'; end: '2026-11-20' → '2026-12-03'
+## Changed (4)
+- I801 2027-01-25: language: 'Bulgarian' → 'English'
+- SA103 2027-02-01: start: '2027-02-15' → '2027-02-01'; end: '2027-02-19' → '2027-02-05'
+- I801 2027-02-22: language: 'Bulgarian' → 'English'
+- I801 2027-03-22: language: 'Bulgarian' → 'English'
 
 ## Only on the Bulgarian schedule (included) (1)
 - AIC-107 AI+ Agent Specialty™ (2027-04-15 – 2027-04-15, English)
